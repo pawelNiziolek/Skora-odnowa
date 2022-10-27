@@ -1,0 +1,84 @@
+/* 
+Theme Name: Skora odnowa theme
+uthor: Paweł Niziołek
+Version: 1.0
+*/
+
+:root {
+  --main-color: #272424;
+  --secondary-color: #272424;
+  --main-font-size: 10px;
+  --nav-elem-font-size: 13px;
+  --nav-list-font-size: 15px;
+}
+
+.header-menu__overflow {
+  padding: 20px;
+}
+
+.header-menu__logo {
+  width: 20%;
+  max-width: 50px;
+  margin: 0;
+  height: auto;
+  display: block;
+  position: relative;
+  top: 0;
+  left: 50%;
+  transform: translateX(-50%);
+}
+
+.header-menu__nav {
+  position: relative;
+  z-index: 3;
+  padding: 40px 20px;
+}
+
+.header-menu__col {
+  position: relative;
+  z-index: 3;
+  color: var(--main-color);
+}
+
+.menu-primary {
+  margin: 0;
+  padding: 0;
+}
+
+.menu-primary__elem-prime {
+  margin-bottom: 25px;
+  list-style: none;
+}
+
+.menu-primary__elem-prime a {
+  font-size: var(--nav-list-font-size);
+  letter-spacing: calc(var(--nav-list-font-size) / 12);
+  color: var(--main-color);
+  font-weight: 600;
+  text-transform: uppercase;
+  display: inline-block;
+  line-height: 1.2;
+  text-decoration: none;
+}
+
+.menu-primary__menu-sec {
+  margin-top: 10px;
+  margin-left: 10px;
+}
+
+.menu-primary__elem-sec {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
+.menu-primary__elem-sec a {
+  font-size: var(--nav-elem-font-size);
+  text-decoration: none;
+  text-transform: none;
+  font-weight: 500;
+}
+
+.menu-primary__elem-sec:not(:last-child) {
+  margin-bottom: 10px;
+}

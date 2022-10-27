@@ -1,0 +1,23 @@
+@import "https://use.typekit.net/aee0lxy.css";
+
+:root {
+  --main-color: #272424;
+  --venusian-soi-color: #f0e5d3;
+  --venusian-skin-color: #dfc0a8;
+  --earthling-mint: #acb493;
+  --earthling-grass: #677462;
+  --main-font-size: 10px;
+  --nav-elem-font-size: 13px;
+  --nav-list-font-size: 15px;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: como, sans-serif;
+}
+
+img {
+  max-width: 100%;
+}

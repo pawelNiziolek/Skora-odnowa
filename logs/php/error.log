@@ -1,0 +1,93 @@
+[24-Oct-2022 18:13:42 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function tagline() in C:\Users\Pawek Monana\Local Sites\skra-odnowa\app\public\wp-content\themes\skoraodnowatest\index.php:2
+Stack trace:
+#0 C:\Users\Pawek Monana\Local Sites\skra-odnowa\app\public\wp-includes\template-loader.php(106): include()
+#1 C:\Users\Pawek Monana\Local Sites\skra-odnowa\app\public\wp-blog-header.php(19): require_once('C:\\Users\\Pawek ...')
+#2 C:\Users\Pawek Monana\Local Sites\skra-odnowa\app\public\index.php(17): require('C:\\Users\\Pawek ...')
+#3 {main}
+  thrown in C:\Users\Pawek Monana\Local Sites\skra-odnowa\app\public\wp-content\themes\skoraodnowatest\index.php on line 2
+[24-Oct-2022 18:35:39 UTC] PHP Parse error:  syntax error, unexpected ';' in C:\Users\Pawek Monana\Local Sites\skra-odnowa\app\public\wp-content\themes\skoraodnowatheme\index.php on line 4
+[24-Oct-2022 18:36:08 UTC] PHP Parse error:  syntax error, unexpected '''' (T_CONSTANT_ENCAPSED_STRING) in C:\Users\Pawek Monana\Local Sites\skra-odnowa\app\public\wp-content\themes\skoraodnowatheme\index.php on line 4
+[24-Oct-2022 18:37:48 UTC] PHP Warning:  Use of undefined constant the_title - assumed 'the_title' (this will throw an Error in a future version of PHP) in C:\Users\Pawek Monana\Local Sites\skra-odnowa\app\public\wp-content\themes\skoraodnowatheme\index.php on line 5
+[24-Oct-2022 18:37:48 UTC] PHP Stack trace:
+[24-Oct-2022 18:37:48 UTC] PHP   1. {main}() C:\Users\Pawek Monana\Local Sites\skra-odnowa\app\public\index.php:0
+[24-Oct-2022 18:37:48 UTC] PHP   2. require() C:\Users\Pawek Monana\Local Sites\skra-odnowa\app\public\index.php:17
+[24-Oct-2022 18:37:48 UTC] PHP   3. require_once() C:\Users\Pawek Monana\Local Sites\skra-odnowa\app\public\wp-blog-header.php:19
+[24-Oct-2022 18:37:48 UTC] PHP   4. include() C:\Users\Pawek Monana\Local Sites\skra-odnowa\app\public\wp-includes\template-loader.php:106
+[24-Oct-2022 18:37:48 UTC] PHP Warning:  Use of undefined constant the_title - assumed 'the_title' (this will throw an Error in a future version of PHP) in C:\Users\Pawek Monana\Local Sites\skra-odnowa\app\public\wp-content\themes\skoraodnowatheme\index.php on line 5
+[24-Oct-2022 18:37:48 UTC] PHP Stack trace:
+[24-Oct-2022 18:37:48 UTC] PHP   1. {main}() C:\Users\Pawek Monana\Local Sites\skra-odnowa\app\public\index.php:0
+[24-Oct-2022 18:37:48 UTC] PHP   2. require() C:\Users\Pawek Monana\Local Sites\skra-odnowa\app\public\index.php:17
+[24-Oct-2022 18:37:48 UTC] PHP   3. require_once() C:\Users\Pawek Monana\Local Sites\skra-odnowa\app\public\wp-blog-header.php:19
+[24-Oct-2022 18:37:48 UTC] PHP   4. include() C:\Users\Pawek Monana\Local Sites\skra-odnowa\app\public\wp-includes\template-loader.php:106
+[24-Oct-2022 18:37:48 UTC] PHP Warning:  Use of undefined constant the_title - assumed 'the_title' (this will throw an Error in a future version of PHP) in C:\Users\Pawek Monana\Local Sites\skra-odnowa\app\public\wp-content\themes\skoraodnowatheme\index.php on line 5
+[24-Oct-2022 18:37:48 UTC] PHP Stack trace:
+[24-Oct-2022 18:37:48 UTC] PHP   1. {main}() C:\Users\Pawek Monana\Local Sites\skra-odnowa\app\public\index.php:0
+[24-Oct-2022 18:37:48 UTC] PHP   2. require() C:\Users\Pawek Monana\Local Sites\skra-odnowa\app\public\index.php:17
+[24-Oct-2022 18:37:48 UTC] PHP   3. require_once() C:\Users\Pawek Monana\Local Sites\skra-odnowa\app\public\wp-blog-header.php:19
+[24-Oct-2022 18:37:48 UTC] PHP   4. include() C:\Users\Pawek Monana\Local Sites\skra-odnowa\app\public\wp-includes\template-loader.php:106
+[24-Oct-2022 18:38:43 UTC] PHP Parse error:  syntax error, unexpected '}' in C:\Users\Pawek Monana\Local Sites\skra-odnowa\app\public\wp-content\themes\skoraodnowatheme\index.php on line 6
+[24-Oct-2022 18:38:57 UTC] PHP Parse error:  syntax error, unexpected '}' in C:\Users\Pawek Monana\Local Sites\skra-odnowa\app\public\wp-content\themes\skoraodnowatheme\index.php on line 6
+[24-Oct-2022 18:39:45 UTC] PHP Parse error:  syntax error, unexpected '}' in C:\Users\Pawek Monana\Local Sites\skra-odnowa\app\public\wp-content\themes\skoraodnowatheme\index.php on line 7
+[24-Oct-2022 18:40:40 UTC] PHP Parse error:  syntax error, unexpected '}' in C:\Users\Pawek Monana\Local Sites\skra-odnowa\app\public\wp-content\themes\skoraodnowatheme\index.php on line 8
+[24-Oct-2022 18:43:01 UTC] PHP Parse error:  syntax error, unexpected '}' in C:\Users\Pawek Monana\Local Sites\skra-odnowa\app\public\wp-content\themes\skoraodnowatheme\index.php on line 8
+[24-Oct-2022 18:43:27 UTC] PHP Parse error:  syntax error, unexpected '}' in C:\Users\Pawek Monana\Local Sites\skra-odnowa\app\public\wp-content\themes\skoraodnowatheme\index.php on line 8
+[24-Oct-2022 18:44:35 UTC] PHP Parse error:  syntax error, unexpected '}' in C:\Users\Pawek Monana\Local Sites\skra-odnowa\app\public\wp-content\themes\skoraodnowatheme\index.php on line 8
+[24-Oct-2022 18:46:29 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function permalink() in C:\Users\Pawek Monana\Local Sites\skra-odnowa\app\public\wp-content\themes\skoraodnowatheme\index.php:5
+Stack trace:
+#0 C:\Users\Pawek Monana\Local Sites\skra-odnowa\app\public\wp-includes\template-loader.php(106): include()
+#1 C:\Users\Pawek Monana\Local Sites\skra-odnowa\app\public\wp-blog-header.php(19): require_once('C:\\Users\\Pawek ...')
+#2 C:\Users\Pawek Monana\Local Sites\skra-odnowa\app\public\index.php(17): require('C:\\Users\\Pawek ...')
+#3 {main}
+  thrown in C:\Users\Pawek Monana\Local Sites\skra-odnowa\app\public\wp-content\themes\skoraodnowatheme\index.php on line 5
+[24-Oct-2022 19:05:21 UTC] PHP Parse error:  syntax error, unexpected '-', expecting '(' in C:\Users\Pawek Monana\Local Sites\skra-odnowa\app\public\wp-content\themes\skoraodnowatheme\functions.php on line 3
+[24-Oct-2022 19:05:25 UTC] PHP Parse error:  syntax error, unexpected '-', expecting '(' in C:\Users\Pawek Monana\Local Sites\skra-odnowa\app\public\wp-content\themes\skoraodnowatheme\functions.php on line 3
+[24-Oct-2022 19:05:26 UTC] PHP Parse error:  syntax error, unexpected '-', expecting '(' in C:\Users\Pawek Monana\Local Sites\skra-odnowa\app\public\wp-content\themes\skoraodnowatheme\functions.php on line 3
+[24-Oct-2022 19:05:43 UTC] PHP Parse error:  syntax error, unexpected '-', expecting '(' in C:\Users\Pawek Monana\Local Sites\skra-odnowa\app\public\wp-content\themes\skoraodnowatheme\functions.php on line 3
+[24-Oct-2022 19:05:43 UTC] PHP Parse error:  syntax error, unexpected '-', expecting '(' in C:\Users\Pawek Monana\Local Sites\skra-odnowa\app\public\wp-content\themes\skoraodnowatheme\functions.php on line 3
+[24-Oct-2022 19:06:01 UTC] PHP Parse error:  syntax error, unexpected '-', expecting '(' in C:\Users\Pawek Monana\Local Sites\skra-odnowa\app\public\wp-content\themes\skoraodnowatheme\functions.php on line 3
+[24-Oct-2022 19:06:01 UTC] PHP Parse error:  syntax error, unexpected '-', expecting '(' in C:\Users\Pawek Monana\Local Sites\skra-odnowa\app\public\wp-content\themes\skoraodnowatheme\functions.php on line 3
+[24-Oct-2022 19:06:56 UTC] PHP Parse error:  syntax error, unexpected '-', expecting '(' in C:\Users\Pawek Monana\Local Sites\skra-odnowa\app\public\wp-content\themes\skoraodnowatheme\functions.php on line 3
+[24-Oct-2022 19:06:57 UTC] PHP Parse error:  syntax error, unexpected '-', expecting '(' in C:\Users\Pawek Monana\Local Sites\skra-odnowa\app\public\wp-content\themes\skoraodnowatheme\functions.php on line 3
+[24-Oct-2022 19:07:22 UTC] PHP Parse error:  syntax error, unexpected '-', expecting '(' in C:\Users\Pawek Monana\Local Sites\skra-odnowa\app\public\wp-content\themes\skoraodnowatheme\functions.php on line 3
+[24-Oct-2022 19:07:31 UTC] PHP Parse error:  syntax error, unexpected '-', expecting '(' in C:\Users\Pawek Monana\Local Sites\skra-odnowa\app\public\wp-content\themes\skoraodnowatheme\functions.php on line 3
+[24-Oct-2022 19:07:31 UTC] PHP Parse error:  syntax error, unexpected '-', expecting '(' in C:\Users\Pawek Monana\Local Sites\skra-odnowa\app\public\wp-content\themes\skoraodnowatheme\functions.php on line 3
+[24-Oct-2022 19:07:57 UTC] PHP Parse error:  syntax error, unexpected end of file in C:\Users\Pawek Monana\Local Sites\skra-odnowa\app\public\wp-content\themes\skoraodnowatheme\functions.php on line 8
+[24-Oct-2022 19:07:58 UTC] PHP Parse error:  syntax error, unexpected end of file in C:\Users\Pawek Monana\Local Sites\skra-odnowa\app\public\wp-content\themes\skoraodnowatheme\functions.php on line 8
+[25-Oct-2022 16:46:10 UTC] PHP Warning:  call_user_func_array() expects parameter 1 to be a valid callback, function 'skora_odnowa' not found or invalid function name in C:\Users\Pawek Monana\Local Sites\skra-odnowa\app\public\wp-includes\class-wp-hook.php on line 307
+[25-Oct-2022 16:46:10 UTC] PHP Stack trace:
+[25-Oct-2022 16:46:10 UTC] PHP   1. {main}() C:\Users\Pawek Monana\Local Sites\skra-odnowa\app\public\index.php:0
+[25-Oct-2022 16:46:10 UTC] PHP   2. require() C:\Users\Pawek Monana\Local Sites\skra-odnowa\app\public\index.php:17
+[25-Oct-2022 16:46:10 UTC] PHP   3. require_once() C:\Users\Pawek Monana\Local Sites\skra-odnowa\app\public\wp-blog-header.php:19
+[25-Oct-2022 16:46:10 UTC] PHP   4. include() C:\Users\Pawek Monana\Local Sites\skra-odnowa\app\public\wp-includes\template-loader.php:106
+[25-Oct-2022 16:46:10 UTC] PHP   5. get_header() C:\Users\Pawek Monana\Local Sites\skra-odnowa\app\public\wp-content\themes\skoraodnowatheme\index.php:1
+[25-Oct-2022 16:46:10 UTC] PHP   6. locate_template() C:\Users\Pawek Monana\Local Sites\skra-odnowa\app\public\wp-includes\general-template.php:48
+[25-Oct-2022 16:46:10 UTC] PHP   7. load_template() C:\Users\Pawek Monana\Local Sites\skra-odnowa\app\public\wp-includes\template.php:716
+[25-Oct-2022 16:46:10 UTC] PHP   8. require_once() C:\Users\Pawek Monana\Local Sites\skra-odnowa\app\public\wp-includes\template.php:770
+[25-Oct-2022 16:46:10 UTC] PHP   9. wp_head() C:\Users\Pawek Monana\Local Sites\skra-odnowa\app\public\wp-content\themes\skoraodnowatheme\header.php:4
+[25-Oct-2022 16:46:10 UTC] PHP  10. do_action() C:\Users\Pawek Monana\Local Sites\skra-odnowa\app\public\wp-includes\general-template.php:3042
+[25-Oct-2022 16:46:10 UTC] PHP  11. WP_Hook->do_action() C:\Users\Pawek Monana\Local Sites\skra-odnowa\app\public\wp-includes\plugin.php:476
+[25-Oct-2022 16:46:10 UTC] PHP  12. WP_Hook->apply_filters() C:\Users\Pawek Monana\Local Sites\skra-odnowa\app\public\wp-includes\class-wp-hook.php:331
+[25-Oct-2022 16:46:10 UTC] PHP  13. wp_enqueue_scripts() C:\Users\Pawek Monana\Local Sites\skra-odnowa\app\public\wp-includes\class-wp-hook.php:307
+[25-Oct-2022 16:46:10 UTC] PHP  14. do_action() C:\Users\Pawek Monana\Local Sites\skra-odnowa\app\public\wp-includes\script-loader.php:2156
+[25-Oct-2022 16:46:10 UTC] PHP  15. WP_Hook->do_action() C:\Users\Pawek Monana\Local Sites\skra-odnowa\app\public\wp-includes\plugin.php:476
+[25-Oct-2022 16:46:10 UTC] PHP  16. WP_Hook->apply_filters() C:\Users\Pawek Monana\Local Sites\skra-odnowa\app\public\wp-includes\class-wp-hook.php:331
+[25-Oct-2022 16:46:33 UTC] PHP Warning:  call_user_func_array() expects parameter 1 to be a valid callback, function 'skora_odnowa' not found or invalid function name in C:\Users\Pawek Monana\Local Sites\skra-odnowa\app\public\wp-includes\class-wp-hook.php on line 307
+[25-Oct-2022 16:46:33 UTC] PHP Stack trace:
+[25-Oct-2022 16:46:33 UTC] PHP   1. {main}() C:\Users\Pawek Monana\Local Sites\skra-odnowa\app\public\index.php:0
+[25-Oct-2022 16:46:33 UTC] PHP   2. require() C:\Users\Pawek Monana\Local Sites\skra-odnowa\app\public\index.php:17
+[25-Oct-2022 16:46:33 UTC] PHP   3. require_once() C:\Users\Pawek Monana\Local Sites\skra-odnowa\app\public\wp-blog-header.php:19
+[25-Oct-2022 16:46:33 UTC] PHP   4. include() C:\Users\Pawek Monana\Local Sites\skra-odnowa\app\public\wp-includes\template-loader.php:106
+[25-Oct-2022 16:46:33 UTC] PHP   5. get_header() C:\Users\Pawek Monana\Local Sites\skra-odnowa\app\public\wp-content\themes\skoraodnowatheme\index.php:1
+[25-Oct-2022 16:46:33 UTC] PHP   6. locate_template() C:\Users\Pawek Monana\Local Sites\skra-odnowa\app\public\wp-includes\general-template.php:48
+[25-Oct-2022 16:46:33 UTC] PHP   7. load_template() C:\Users\Pawek Monana\Local Sites\skra-odnowa\app\public\wp-includes\template.php:716
+[25-Oct-2022 16:46:33 UTC] PHP   8. require_once() C:\Users\Pawek Monana\Local Sites\skra-odnowa\app\public\wp-includes\template.php:770
+[25-Oct-2022 16:46:33 UTC] PHP   9. wp_head() C:\Users\Pawek Monana\Local Sites\skra-odnowa\app\public\wp-content\themes\skoraodnowatheme\header.php:4
+[25-Oct-2022 16:46:33 UTC] PHP  10. do_action() C:\Users\Pawek Monana\Local Sites\skra-odnowa\app\public\wp-includes\general-template.php:3042
+[25-Oct-2022 16:46:33 UTC] PHP  11. WP_Hook->do_action() C:\Users\Pawek Monana\Local Sites\skra-odnowa\app\public\wp-includes\plugin.php:476
+[25-Oct-2022 16:46:33 UTC] PHP  12. WP_Hook->apply_filters() C:\Users\Pawek Monana\Local Sites\skra-odnowa\app\public\wp-includes\class-wp-hook.php:331
+[25-Oct-2022 16:46:33 UTC] PHP  13. wp_enqueue_scripts() C:\Users\Pawek Monana\Local Sites\skra-odnowa\app\public\wp-includes\class-wp-hook.php:307
+[25-Oct-2022 16:46:33 UTC] PHP  14. do_action() C:\Users\Pawek Monana\Local Sites\skra-odnowa\app\public\wp-includes\script-loader.php:2156
+[25-Oct-2022 16:46:33 UTC] PHP  15. WP_Hook->do_action() C:\Users\Pawek Monana\Local Sites\skra-odnowa\app\public\wp-includes\plugin.php:476
+[25-Oct-2022 16:46:33 UTC] PHP  16. WP_Hook->apply_filters() C:\Users\Pawek Monana\Local Sites\skra-odnowa\app\public\wp-includes\class-wp-hook.php:331
+[25-Oct-2022 16:50:52 UTC] PHP Parse error:  syntax error, unexpected end of file in C:\Users\Pawek Monana\Local Sites\skra-odnowa\app\public\wp-content\themes\skoraodnowatheme\functions.php on line 8
+[25-Oct-2022 16:50:52 UTC] PHP Parse error:  syntax error, unexpected end of file in C:\Users\Pawek Monana\Local Sites\skra-odnowa\app\public\wp-content\themes\skoraodnowatheme\functions.php on line 8
