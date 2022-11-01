@@ -1,16 +1,5 @@
 @import "https://use.typekit.net/aee0lxy.css";
 
-:root {
-  --main-color: #272424;
-  --venusian-soi-color: #f0e5d3;
-  --venusian-skin-color: #dfc0a8;
-  --earthling-mint: #acb493;
-  --earthling-grass: #677462;
-  --main-font-size: 10px;
-  --nav-elem-font-size: 13px;
-  --nav-list-font-size: 15px;
-}
-
 * {
   margin: 0;
   padding: 0;
@@ -18,6 +7,121 @@
   font-family: como, sans-serif;
 }
 
+*:focus-visible {
+  outline: -webkit-focus-ring-color auto 0px;
+  outline-style: none;
+  outline-color: transparent;
+}
+
+
+body {
+  background-image: url(/app/public/wp-content/themes/skoraodnowatheme/img/gabinet-monika.jpg);
+  background-position: top;
+  background-size: cover;
+  background-repeat: no-repeat;
+  width: 100%;
+  min-height: 100vh;
+}
+
+body.mob-nav-anim.active {
+  max-height: 100vh;
+}
+
+input,
+textarea,
+button,
+select,
+a {
+  -webkit-tap-highlight-color: rgba(0, 0, 0, 0);
+}
+
+:root {
+  --main-color: #111111;
+  --venusian-soi-color: #f0e5d3;
+  --venusian-skin-color: #dfc0a8;
+  --earthling-mint: #acb493;
+  --earthling-grass: #677462;
+  --main-font-size: 14px;
+  --h2-font-size: 22px;
+  --nav-elem-font-size: 13px;
+  --nav-list-font-size: 15px;
+  --shadow-color: #888;
+  --btn-lett-space: 1.2px;
+  --normal-lett-space: 1px;
+}
+
 img {
   max-width: 100%;
+}
+
+.btn-visit {
+  background-color: var(--earthling-mint);
+  border: none;
+  overflow: hidden;
+  border-radius: 4px;
+  height: 42px;
+  max-width: 150px;
+  box-sizing: border-box;
+  transition: 0.3s;
+}
+
+.btn-visit:hover {
+  box-shadow: -5px 10px 14px 0px var(--shadow-color);
+}
+
+.btn-visit--second {
+  background-color: var(--venusian-skin-color);
+}
+
+.btn-visit a {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 100%;
+  padding: 0px 8px;
+  height: 42px;
+  color: #fff;
+  text-decoration: none;
+  line-height: 1.1;
+  font-weight: 600;
+  font-size: var(--nav-elem-font-size);
+  letter-spacing: var(--btn-lett-space);
+  transition: 0.3s;
+}
+
+.h2-title {
+  font-size: var(--h2-font-size);
+  font-weight: 400;
+  letter-spacing: var(--normal-lett-space);
+  font-weight: bold;
+  margin: 20px 0 10px;
+}
+
+.p-normal {
+  font-size: var(--main-font-size);
+  font-weight: 400;
+  letter-spacing: var(--normal-lett-space);
+  margin: 10px 0;
+}
+
+
+.p-normal a {
+  display: inline-block;
+  color: var(--main-color);
+  text-decoration: none;
+  width: max-content;
+  font-weight: 600;
+}
+
+.p-normal a::after {
+  content: "";
+  height: 1px;
+  width: 0;
+  background-color: var(--earthling-mint);
+  display: block;
+  transition: 0.3s;
+}
+
+.p-normal a:hover::after {
+  width: 100%;
 }

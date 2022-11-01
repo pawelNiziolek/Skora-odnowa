@@ -1,0 +1,150 @@
+/* .wrap-footer {
+  background-color: #fff;
+} */
+
+.wrap-footer__wrap-section {
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+  padding: 0 0 20px;
+  text-align: center;
+  max-width: 1200px;
+  margin: 0 auto;
+  /* background-color: var(--venusian-soi-color); */
+  background-color: #fff;
+}
+
+.wrap-footer__section {
+  margin: 30px 0 0;
+}
+
+.footer-visit {
+  margin: 0;
+}
+
+.footer-info-adress__details span {
+  margin: 0 5px;
+}
+
+.footer-map {
+  width: 100%;
+  margin: 15px auto 0;
+  text-align: center;
+}
+
+.wrap-footer__section .btn-visit {
+  display: block;
+  max-width: 260px;
+  width: 100%;
+  margin: 15px auto;
+}
+
+.footer-map__g-map {
+  width: 100%;
+  max-height: 400px;
+  min-height: 300px;
+  height: 50.5vw;
+  background-image: radial-gradient(red 10%, black 60%);
+  color: white;
+  padding-top: 90px;
+  box-sizing: border-box;
+}
+
+.wrap-contact {
+  padding: 0 20px;
+}
+
+.wrap-footer__social-button-icon img {
+  width: 40px;
+  margin: 10px 10px 0;
+  border-radius: 50%;
+  box-shadow: 0 0 0 0 transparent;
+  transition: .4s;
+}
+
+.wrap-footer__social-button-icon img:hover {
+  box-shadow: -5px 6px 12px 1px var(--shadow-color);
+}
+
+.wrap-footer__section-wrap-copy {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-between;
+  max-width: 1200px;
+  width: 100%;
+  margin: 0 auto;
+}
+
+.wrap-footer__section-copy-reg {
+  width: 100%;
+  background-color: var(--main-color);
+  padding: 5px 10px;
+  margin: 0;
+}
+
+.p-normal__copy-reg {
+  display: inline-block;
+  padding: 0 10px;
+  margin: 5px 0;
+  color: #fff;
+}
+
+.p-normal__copy-reg a {
+  color: #fff;
+}
+
+.p-normal__copy-reg {
+  font-size: 12px;
+}
+
+.p-normal__copy-reg--rights {
+  font-weight: 200;
+}
+
+@media(min-width: 768px) {
+  .wrap-footer__wrap-section {
+    flex-direction: row;
+    position: relative;
+    z-index: 1;
+  }
+
+  .wrap-footer__section {
+    margin: 0;
+  }
+
+  .footer-visit,
+  .wrap-contact {
+    width: 50%;
+    padding: 0 20px;
+  }
+
+  .wrap-contact {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .wrap-footer__section-wrap-copy {
+    flex-direction: row;
+  }
+
+  .wrap-footer__section-copy-reg {
+    height: 200px;
+    margin-top: -165px;
+    display: flex;
+    align-items: flex-end;
+    justify-content: space-between;
+  }
+
+  .p-normal__copy-reg--rights {
+    display: inline-block;
+    padding: 0 10px;
+    margin: 5px 0;
+  }
+
+  .wrap-btn-visit {
+    width: 100%;
+    margin: 20px auto 0;
+  }
+}
