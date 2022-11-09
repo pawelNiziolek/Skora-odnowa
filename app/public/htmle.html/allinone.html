@@ -167,6 +167,75 @@
     </header>
   </div>
 
+  <!-- home page -->
+  <div class="wrap-home">
+    <section class="video-prime">
+      <video src="" class="video-prime__movie" controls="0" mute="" loop="1"
+        poster="/app/public/wp-content/themes/skoraodnowatheme/img/video-poster.jpg"></video>
+    </section>
+
+  </div>
+
+  <!-- footer -->
+  <footer class="wrap-footer">
+    <div class="wrap-footer__wrap-section">
+      <section class="wrap-footer__section footer-visit">
+        <article class="footer-adress">
+          <h2 class="footer-info-adress h2-title">Adres</h2>
+          <p class="footer-info-adress__details p-normal">ul. Słupecka 45 <span></span>81-313 Gdynia
+          </p>
+        </article>
+        <article class="footer-map">
+          <div class="footer-map__g-map">MAPA</div>
+        </article>
+      </section>
+      <div class="wrap-contact">
+        <section class="wrap-footer__section footer-contact">
+          <h2 class="wrap-footer__footer-info-contact h2-title">Kontakt</h2>
+          <p class="wrap-footer__footer-info-contact__details p-normal">tel: <a href="tel:+48123123123">123123123</a>
+          </p>
+          <p class="wrap-footer__footer-info-contact__details p-normal">e-mail: <a
+              href="mailto: skoraodnowagdynia@gmail.com">
+              skoraodnowagdynia@gmail.com</a>
+          </p>
+          <div class="wrap-footer__social-button">
+            <a href="" class="wrap-footer__social-button-icon wrap-footer__social-button-icon--fb"><img
+                src="/app/public/wp-content/themes/skoraodnowatheme/img/facebook.png" alt="facebook" /></a>
+            <a href="" class="wrap-footer__social-button-icon wrap-footer__social-button-icon--insta"><img
+                src="/app/public/wp-content/themes/skoraodnowatheme/img/instagram.png" alt="instagram" /></a>
+          </div>
+        </section>
+        <section class="wrap-footer__section wrap-btn-visit">
+          <button class="btn-visit"><a href="" class="visit-place ">Umów wizytę stacjonarną</a></button>
+          <button class="btn-visit btn-visit--second"><a href="" class="visit-online">Umów spotkanie
+              online</a></button>
+        </section>
+        <section class="wrap-footer__section footer-open">
+          <h2 class="wrap-footer__footer-open-info h2-title">Godziny otwarcia</h2>
+          <p class="wrap-footer__footer-open-info__details p-normal">
+            Poniedziałek-piątek<br>
+            8:00 - 20:00</p>
+          <p class="wrap-footer__footer-open-info__details p-normal">Sobota<br>
+            8:00 - 15:00
+          </p>
+        </section>
+      </div>
+    </div>
+    <section class="wrap-footer__section wrap-footer__section-copy-reg">
+      <div class="wrap-footer__section-wrap-copy">
+        <div class="wrap-copy-reg">
+          <p class="p-normal p-normal__copy-reg"><a href="/">Regulamin</a>
+          </p>
+          <p class="p-normal p-normal__copy-reg"><a href="/">Polityka prywatności</a>
+          </p>
+        </div>
+        <p class="p-normal p-normal__copy-reg p-normal__copy-reg--rights">© Skóra odnowa All Rights Reserved</p>
+      </div>
+    </section>
+
+  </footer>
+  </div>
+
   <style>
     @import "https://use.typekit.net/aee0lxy.css";
 
@@ -302,6 +371,8 @@
       width: 100%;
     }
 
+
+    /* menu */
     .header-menu-deskt__overflow {
       display: none;
       z-index: 99;
@@ -725,6 +796,163 @@
         margin-right: 0;
         margin-left: 30px;
         opacity: 1;
+      }
+    }
+
+    /* home page */
+
+    .wrap-home,
+    .video-prime__movie {
+      width: 100%;
+      max-width: 100%;
+      height: auto;
+    }
+
+    /* footer */
+    .wrap-footer__wrap-section {
+      display: flex;
+      flex-direction: column;
+      flex-wrap: wrap;
+      padding: 0 0 20px;
+      text-align: center;
+      max-width: 1200px;
+      margin: 0 auto;
+      background-color: var(--venusian-soi-color);
+      background-color: #fff;
+    }
+
+    .wrap-footer__section {
+      margin: 30px 0 0;
+    }
+
+    .footer-visit {
+      margin: 0;
+    }
+
+    .footer-info-adress__details span {
+      margin: 0 5px;
+    }
+
+    .footer-map {
+      width: 100%;
+      margin: 15px auto 0;
+      text-align: center;
+    }
+
+    .wrap-footer__section .btn-visit {
+      display: block;
+      max-width: 260px;
+      width: 100%;
+      margin: 15px auto;
+    }
+
+    .footer-map__g-map {
+      width: 100%;
+      max-height: 400px;
+      min-height: 300px;
+      height: 50.5vw;
+      background-image: radial-gradient(red 10%, black 60%);
+      color: white;
+      padding-top: 90px;
+      box-sizing: border-box;
+    }
+
+    .wrap-contact {
+      padding: 0 20px;
+    }
+
+    .wrap-footer__social-button-icon img {
+      width: 40px;
+      margin: 10px 10px 0;
+      border-radius: 50%;
+      box-shadow: 0 0 0 0 transparent;
+      transition: .4s;
+    }
+
+    .wrap-footer__social-button-icon img:hover {
+      box-shadow: -5px 6px 12px 1px var(--shadow-color);
+    }
+
+    .wrap-footer__section-wrap-copy {
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      justify-content: space-between;
+      max-width: 1200px;
+      width: 100%;
+      margin: 0 auto;
+    }
+
+    .wrap-footer__section-copy-reg {
+      width: 100%;
+      background-color: var(--main-color);
+      padding: 5px 10px;
+      margin: 0;
+    }
+
+    .p-normal__copy-reg {
+      display: inline-block;
+      padding: 0 10px;
+      margin: 5px 0;
+      color: #fff;
+    }
+
+    .p-normal__copy-reg a {
+      color: #fff;
+    }
+
+    .p-normal__copy-reg {
+      font-size: 12px;
+    }
+
+    .p-normal__copy-reg--rights {
+      font-weight: 200;
+    }
+
+    @media(min-width: 768px) {
+      .wrap-footer__wrap-section {
+        flex-direction: row;
+        position: relative;
+        z-index: 1;
+      }
+
+      .wrap-footer__section {
+        margin: 0;
+      }
+
+      .footer-visit,
+      .wrap-contact {
+        width: 50%;
+        padding: 0 20px;
+      }
+
+      .wrap-contact {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+      }
+
+      .wrap-footer__section-wrap-copy {
+        flex-direction: row;
+      }
+
+      .wrap-footer__section-copy-reg {
+        height: 200px;
+        margin-top: -165px;
+        display: flex;
+        align-items: flex-end;
+        justify-content: space-between;
+      }
+
+      .p-normal__copy-reg--rights {
+        display: inline-block;
+        padding: 0 10px;
+        margin: 5px 0;
+      }
+
+      .wrap-btn-visit {
+        width: 100%;
+        margin: 20px auto 0;
       }
     }
   </style>

@@ -3,6 +3,10 @@
 
 <head>
   <?php wp_head(); ?>
+  <!-- Add the slick-theme.css if you want default styling -->
+  <link rel="stylesheet" type="text/css" href="//cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.css" />
+  <!-- Add the slick-theme.css if you want default styling -->
+  <link rel="stylesheet" type="text/css" href="//cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick-theme.css" />
 </head>
 
 <body>
@@ -15,7 +19,7 @@
         </div>
       </div>
       <a href="" class="wrap-btn-mob-btn__logo"><img
-          src="<?php echo get_theme_file_uri('/img/skora-odnowa-sigil-menu.png') ?>" alt="" />
+          src="<?php echo get_theme_file_uri('/img/skora-odnowa-logo-menu.png') ?>" alt="" />
       </a>
       <button class="btn-visit">
         <a href="">Umów wizytę</a>
@@ -137,13 +141,14 @@
             </li>
           </div>
           <div class="menu-deskt-logo">
-            <a href="/"><img src="<?php echo get_theme_file_uri('/img/skora-odnowa-sigil-menu.png') ?>" alt="" />
+            <a href="/"><img src="<?php echo get_theme_file_uri('/img/skora-odnowa-logo-menu.png') ?>" alt="" />
             </a>
           </div>
           <div class="menu-primary-deskt__wrap menu-primary__wrap--right">
             <li class="menu-primary-deskt__elem-prime">
               <a href=""> Kontakt</a>
-            </li> <button class="btn-visit">
+            </li>
+            <button class="btn-visit">
               <a href="">Umów wizytę stacjonarną</a>
             </button>
             <div class="social-button">

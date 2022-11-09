@@ -91,3 +91,4 @@ Stack trace:
 [25-Oct-2022 16:46:33 UTC] PHP  16. WP_Hook->apply_filters() C:\Users\Pawek Monana\Local Sites\skra-odnowa\app\public\wp-includes\class-wp-hook.php:331
 [25-Oct-2022 16:50:52 UTC] PHP Parse error:  syntax error, unexpected end of file in C:\Users\Pawek Monana\Local Sites\skra-odnowa\app\public\wp-content\themes\skoraodnowatheme\functions.php on line 8
 [25-Oct-2022 16:50:52 UTC] PHP Parse error:  syntax error, unexpected end of file in C:\Users\Pawek Monana\Local Sites\skra-odnowa\app\public\wp-content\themes\skoraodnowatheme\functions.php on line 8
+[06-Nov-2022 20:17:52 UTC] PHP Parse error:  syntax error, unexpected ''/img/video-poster.jpg?>"></vi' (T_ENCAPSED_AND_WHITESPACE) in C:\Users\Pawek Monana\Local Sites\skra-odnowa\app\public\wp-content\themes\skoraodnowatheme\index.php on line 9

@@ -1,0 +1,36 @@
+@font-face {
+    font-family: 'Como';
+    src: url('Como-Bold.woff2') format('woff2'),
+        url('Como-Bold.woff') format('woff');
+    font-weight: bold;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Como';
+    src: url('Como-Light.woff2') format('woff2'),
+        url('Como-Light.woff') format('woff');
+    font-weight: 300;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Como';
+    src: url('Como-Medium.woff2') format('woff2'),
+        url('Como-Medium.woff') format('woff');
+    font-weight: 500;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Como';
+    src: url('Como.woff2') format('woff2'),
+        url('Como.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+}
+

@@ -15,10 +15,10 @@
 
 
 body {
-  background-image: url(/app/public/wp-content/themes/skoraodnowatheme/img/gabinet-monika.jpg);
+  /* background-image: url(/app/public/wp-content/themes/skoraodnowatheme/img/gabinet-monika.jpg);
   background-position: top;
   background-size: cover;
-  background-repeat: no-repeat;
+  background-repeat: no-repeat; */
   width: 100%;
   min-height: 100vh;
 }
@@ -54,11 +54,15 @@ img {
   max-width: 100%;
 }
 
+a {
+  display: inline-block;
+}
+
 .btn-visit {
   background-color: var(--earthling-mint);
   border: none;
   overflow: hidden;
-  border-radius: 4px;
+  /* border-radius: 4px; */
   height: 42px;
   max-width: 150px;
   box-sizing: border-box;
@@ -66,11 +70,23 @@ img {
 }
 
 .btn-visit:hover {
-  box-shadow: -5px 10px 14px 0px var(--shadow-color);
+  background-color: var(--earthling-grass);
+}
+
+.btn-visit:hover a {
+  color: var(--venusian-soi-color);
 }
 
 .btn-visit--second {
   background-color: var(--venusian-skin-color);
+}
+
+.btn-visit--second:hover {
+  background-color: var(--venusian-soi-color);
+}
+
+.btn-visit--second:hover a {
+  color: var(--earthling-grass);
 }
 
 .btn-visit a {
@@ -101,7 +117,9 @@ img {
   font-size: var(--main-font-size);
   font-weight: 400;
   letter-spacing: var(--normal-lett-space);
-  margin: 10px 0;
+  margin: 8px 0;
+  padding: 2px 0;
+  ;
 }
 
 
@@ -111,6 +129,7 @@ img {
   text-decoration: none;
   width: max-content;
   font-weight: 600;
+  padding: 2px 0;
 }
 
 .p-normal a::after {

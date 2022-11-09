@@ -1,0 +1,27 @@
+.wrap-home,
+.video-prime__movie {
+  width: auto;
+  max-width: 100%;
+  min-height: 100vh;
+}
+
+.carousel--item {
+  padding: 10px;
+}
+
+.carousel--item figure {
+  height: 210px;
+  overflow: hidden;
+}
+
+.carousel--item figure img {
+  transition: .3s;
+}
+
+.carousel--item figure img:hover {
+  transform: scale(1.1);
+}
+
+/* blog carousel start */
+
+/* blog carousel end */

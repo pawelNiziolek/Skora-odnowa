@@ -73,7 +73,7 @@ Version: 1.0
 
 .wrap-btn-mob__span.active {
   transform: rotate(-45deg);
-  transform-origin: 86%;
+  transform-origin: 84%;
 }
 
 .wrap-btn-mob__span.wrap-btn-mob__span--sec.active {
@@ -98,11 +98,11 @@ Version: 1.0
   height: auto;
   display: block;
   text-align: center;
-  height: 42px;
+  height: 70px;
 }
 
 .wrap-btn-mob-btn__logo img {
-  height: 42px;
+  height: 70px;
 }
 
 .header-menu-mob__nav {
@@ -264,7 +264,7 @@ Version: 1.0
 }
 
 .social-button__icon img:hover {
-  box-shadow: -5px 6px 12px 1px var(--shadow-color);
+  box-shadow: 0px 6px 12px 1px var(--shadow-color);
 }
 
 @media(min-width: 680px) {
@@ -303,7 +303,7 @@ Version: 1.0
     right: 0;
     padding: 0 10px;
     background-color: transparent;
-    transition: background-color .35s;
+    transition: background-color .3s;
   }
 
   .header-menu-deskt__overflow:hover {
@@ -328,12 +328,13 @@ Version: 1.0
   }
 
   .menu-deskt-logo {
-    padding: 0 30px;
+    padding: 5px 30px 0;
     box-sizing: border-box;
   }
 
   .menu-deskt-logo img {
-    width: 50px;
+    width: 55px;
+    transition: .27s;
   }
 
   .menu-primary-deskt__elem-prime {
@@ -389,7 +390,7 @@ Version: 1.0
     left: 0;
     background-color: #fff;
     opacity: 0;
-    box-shadow: -5px 10px 16px -2px var(--shadow-color);
+    box-shadow: 0px 9px 16px -2px var(--shadow-color);
     border-radius: 5px;
     transition: .3s;
   }
