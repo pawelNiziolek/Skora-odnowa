@@ -399,7 +399,7 @@ Version: 1.0
     font-size: var(--nav-elem-font-size);
     font-weight: 400;
     text-transform: initial;
-    padding: 15px 15px 0;
+    padding: 15px 15px 2px;
     width: max-content;
   }
 

@@ -62,18 +62,19 @@
 $(document).ready(function() {
   $('.center').slick({
     centerMode: true,
-    centerPadding: '60px',
-    slidesToShow: 3,
-    edgeFriction: .5,
-    touchThreshold: 10,
+    centerPadding: '60px 0 0px',
+    slidesToShow: 2,
+    edgeFriction: 10,
+    touchThreshold: 90,
     easing: 'ease-out',
+    swipeToSlide: true,
     responsive: [{
         breakpoint: 768,
         settings: {
           arrows: true,
           centerMode: true,
           centerPadding: '40px',
-          slidesToShow: 3
+          slidesToShow: 2
         }
       },
       {
@@ -82,7 +83,7 @@ $(document).ready(function() {
           arrows: false,
           centerMode: true,
           centerPadding: '40px',
-          slidesToShow: 2
+          slidesToShow: 1
         }
       }
     ],
