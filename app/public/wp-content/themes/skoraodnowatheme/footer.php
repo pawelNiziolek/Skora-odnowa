@@ -44,9 +44,10 @@
   <section class="wrap-footer__section wrap-footer__section-copy-reg">
     <div class="wrap-footer__section-wrap-copy">
       <div class="wrap-copy-reg">
-        <p class="p-normal p-normal__copy-reg"><a href="/">Regulamin</a>
+        <p class="p-normal p-normal__copy-reg"><a href="<?php echo site_url('/regulamin') ?>">Regulamin</a>
         </p>
-        <p class="p-normal p-normal__copy-reg"><a href="/">Polityka prywatności</a>
+        <p class="p-normal p-normal__copy-reg"><a href="<?php echo site_url('/polityka-prywatnosci') ?>">Polityka
+            prywatności</a>
         </p>
       </div>
       <p class="p-normal p-normal__copy-reg p-normal__copy-reg--rights">© Skóra odnowa All Rights Reserved</p>
@@ -55,43 +56,6 @@
 
 </footer>
 <?php wp_footer(); ?>
-<script type="text/javascript" src="//code.jquery.com/jquery-1.11.0.min.js"></script>
-<script type="text/javascript" src="//code.jquery.com/jquery-migrate-1.2.1.min.js"></script>
-<script type="text/javascript" src="//cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.min.js"></script>
-<script type="text/javascript">
-$(document).ready(function() {
-  $('.center').slick({
-    centerMode: true,
-    centerPadding: '60px 0 0px',
-    slidesToShow: 2,
-    edgeFriction: 10,
-    touchThreshold: 90,
-    easing: 'ease-out',
-    swipeToSlide: true,
-    responsive: [{
-        breakpoint: 768,
-        settings: {
-          arrows: true,
-          centerMode: true,
-          centerPadding: '40px',
-          slidesToShow: 2
-        }
-      },
-      {
-        breakpoint: 480,
-        settings: {
-          arrows: false,
-          centerMode: true,
-          centerPadding: '40px',
-          slidesToShow: 1
-        }
-      }
-    ],
-    dots: true,
-    speed: 500
-  });
-});
-</script>
 </body>
 
 </html>

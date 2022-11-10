@@ -4,9 +4,8 @@ get_header();
 
 while(have_posts()) {
   the_post(); ?>
-<h1>to stronas</h1>
-<h2><?php the_title(); ?></a></h2>
-<?php the_content(); ?>
+<h1><?php the_title(); ?></h1>
+<p><?php the_content();?></p>
 <?php }
 
 get_footer();
