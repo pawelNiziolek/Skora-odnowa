@@ -1,42 +1,49 @@
-<?php get_header(); 
+<?php get_header();
 
 // while(have_posts()) {
 //   the_post(); 
-  ?>
+?>
 <div class="wrap-home">
   <section class="video-prime">
     <video src="" class="video-prime__movie" autoplay mute loop
-      poster="<?php echo get_theme_file_uri('/img/video-poster.jpg')?>"></video>
+      poster="<?php echo get_theme_file_uri('/img/video-poster.jpg') ?>"></video>
   </section>
   <section class="blog-carousel">
+
+    <h2 class="h2-title">Dowiedz się wiecej</h2>
     <!-- Swiper -->
     <div class="swiper mySwiper">
       <div class="swiper-wrapper">
-        <div class="swiper-slide"><a href=""><img src="<?php echo get_theme_file_uri('/img/video-poster.jpg')?>" alt="">
+        <div class="swiper-slide"><a href=""><img src="<?php echo get_theme_file_uri('/img/video-poster.jpg') ?>"
+              alt="">
             <div class="slide-text">
               <h1>slide 1</h1>
               <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Incidunt molestias aperiam</p>
             </div>
           </a></div>
-        <div class="swiper-slide"><a href=""><img src="<?php echo get_theme_file_uri('/img/video-poster.jpg')?>" alt="">
+        <div class="swiper-slide"><a href=""><img src="<?php echo get_theme_file_uri('/img/video-poster.jpg') ?>"
+              alt="">
             <div class="slide-text">
               <h1>slide 1</h1>
               <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Incidunt molestias aperiam</p>
             </div>
           </a></div>
-        <div class="swiper-slide"><a href=""><img src="<?php echo get_theme_file_uri('/img/video-poster.jpg')?>" alt="">
+        <div class="swiper-slide"><a href=""><img src="<?php echo get_theme_file_uri('/img/video-poster.jpg') ?>"
+              alt="">
             <div class="slide-text">
               <h1>slide 1</h1>
               <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Incidunt molestias aperiam</p>
             </div>
           </a></div>
-        <div class="swiper-slide"><a href=""><img src="<?php echo get_theme_file_uri('/img/video-poster.jpg')?>" alt="">
+        <div class="swiper-slide"><a href=""><img src="<?php echo get_theme_file_uri('/img/video-poster.jpg') ?>"
+              alt="">
             <div class="slide-text">
               <h1>slide 1</h1>
               <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Incidunt molestias aperiam</p>
             </div>
           </a></div>
-        <div class="swiper-slide"><a href=""><img src="<?php echo get_theme_file_uri('/img/video-poster.jpg')?>" alt="">
+        <div class="swiper-slide"><a href=""><img src="<?php echo get_theme_file_uri('/img/video-poster.jpg') ?>"
+              alt="">
             <div class="slide-text">
               <h1>slide 1</h1>
               <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Incidunt molestias aperiam</p>
@@ -77,7 +84,7 @@ var swiper = new Swiper(".mySwiper", {
   }
 });
 </script>
-<?php 
+<?php
 
 get_footer();
 ?>

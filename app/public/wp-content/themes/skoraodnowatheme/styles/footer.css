@@ -66,6 +66,17 @@
   box-shadow: 0 3px 10px 1px rgb(0 0 0 / 50%);
 }
 
+.wrap-footer__footer-info-contact__details.p-normal {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.wrap-footer__contact-icon {
+  width: 20px;
+  margin: 10px;
+}
+
 .wrap-footer__section-wrap-copy {
   display: flex;
   flex-direction: column;
