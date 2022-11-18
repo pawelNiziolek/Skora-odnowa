@@ -2,11 +2,13 @@
 <html lang="pl">
 
 <head>
+  <meta charset="<?php bloginfo('charset'); ?>">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <?php wp_head(); ?>
   <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper/swiper-bundle.min.css" />
 </head>
 
-<body>
+<body <?php body_class(); ?>>
   <div class="header-menu-mob__overflow mob-nav-anim">
     <div class="wrap-btn-mob  mob-nav-anim">
       <div class="wrap-btn-mob__nav-btn">
@@ -15,7 +17,7 @@
             class="wrap-btn-mob__span wrap-btn-mob__span--sec mob-nav-anim"></span>
         </div>
       </div>
-      <a href="" class="wrap-btn-mob-btn__logo"><img
+      <a href="<?php echo site_url('/') ?>" class="wrap-btn-mob-btn__logo"><img
           src="<?php echo get_theme_file_uri('/img/skora-odnowa-logo-menu.png') ?>" alt="" />
       </a>
       <button class="btn-visit">
