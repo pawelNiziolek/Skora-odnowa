@@ -3,7 +3,7 @@
 // while(have_posts()) {
 //   the_post(); 
 ?>
-<div class="wrap-home">
+<div class="wrapper-content wrap-home">
   <section class="video-prime">
     <video src="" class="video-prime__movie" autoplay mute loop
       poster="<?php echo get_theme_file_uri('/img/video-poster.jpg') ?>"></video>
@@ -12,7 +12,7 @@
 
     <h2 class="h2-title">Dowiedz się wiecej</h2>
     <!-- Swiper -->
-    <div class="swiper mySwiper">
+    <article class="swiper mySwiper">
       <div class="swiper-wrapper">
         <div class="swiper-slide"><a href=""><img src="<?php echo get_theme_file_uri('/img/video-poster.jpg') ?>"
               alt="">
@@ -51,7 +51,7 @@
           </a></div>
       </div>
       <div class="swiper-pagination"></div>
-    </div>
+    </article>
   </section>
 </div>
 

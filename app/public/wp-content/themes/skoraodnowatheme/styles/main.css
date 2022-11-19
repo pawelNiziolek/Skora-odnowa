@@ -22,7 +22,8 @@ body {
   width: 100%;
   min-height: 100vh;
   max-width: 1920px;
-  padding: 100px 0 0;
+  padding: 50px 0 0;
+  margin: 0 auto;
 }
 
 body.mob-nav-anim.active {
@@ -39,17 +40,17 @@ a {
 
 :root {
   --main-color: #111111;
-  --venusian-soi-color: #f0e5d3;
-  --venusian-skin-color: #dfc0a8;
-  --earthling-mint: #acb493;
-  --earthling-grass: #677462;
-  --main-font-size: 14px;
-  --h2-font-size: 22px;
+  --venusian-soi-color: rgb(240, 229, 211);
+  --venusian-skin-color: rgb(223, 192, 168);
+  --earthling-mint: rgb(172, 180, 147);
+  --earthling-grass: rgb(103, 116, 98);
+  --main-font-size: 12px;
   --nav-elem-font-size: 13px;
   --nav-list-font-size: 15px;
-  --shadow-color: #888;
+  --shadow-color: rgb(136, 136, 136);
   --btn-lett-space: 1.2px;
   --normal-lett-space: 1px;
+  --padding-section: 4vw;
 }
 
 img {
@@ -58,6 +59,14 @@ img {
 
 a {
   display: inline-block;
+}
+
+.wrapper-content {
+  margin-bottom: 10vmin;
+}
+
+section {
+  padding: 0 var(--padding-section);
 }
 
 .btn-visit {
@@ -108,20 +117,30 @@ a {
 }
 
 .h2-title {
-  font-size: var(--h2-font-size);
+  font-size: calc(var(--main-font-size) + 1vmin);
+  text-transform: uppercase;
   font-weight: 400;
   letter-spacing: var(--normal-lett-space);
   font-weight: bold;
-  margin: 20px 0 10px;
+  margin: 7vmin 0 2vmin;
+}
+
+.h2-title__big {
+  font-size: calc(var(--main-font-size) + 2vmin);
+  padding: calc(10px + 1vmin) 0 calc(5px + 1vmin);
+}
+
+.h2-title__important {
+  color: var(--venusian-skin-color);
 }
 
 .p-normal {
-  font-size: var(--main-font-size);
+  font-size: calc(var(--main-font-size) + 1vmin);
   font-weight: 400;
   letter-spacing: var(--normal-lett-space);
-  margin: 8px 0;
-  padding: 2px 0;
-  ;
+  margin: 3vmin;
+  padding: 1vmin 0;
+  display: inline-block;
 }
 
 
@@ -139,6 +158,7 @@ a {
   content: "";
   height: 1px;
   width: 0;
+  margin: 0 auto;
   background-color: var(--earthling-mint);
   display: block;
   transition: 0.3s;
@@ -152,8 +172,23 @@ a {
   width: 100%;
 }
 
+@media(min-width: 640px) {
+  :root {
+    --padding-section: 8vw;
+  }
+}
+
 @media(min-width: 768px) {
   body {
     padding: 74px 0 0;
+  }
+
+  :root {
+    --main-font-size: 10px;
+  }
+
+  .p-normal {
+    margin: 1vmin 0;
+    padding: 0.5vmin;
   }
 }

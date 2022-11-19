@@ -7,6 +7,7 @@ function skora_odnowa()
   wp_enqueue_style('skoraodnowa_nav_styles', get_theme_file_uri('/styles/header.css'));
   wp_enqueue_style('skoraodnowa_footer_styles', get_theme_file_uri('/styles/footer.css'));
   wp_enqueue_style('skoraodnowa_home_styles', get_theme_file_uri('/styles/home.css'));
+  wp_enqueue_style('skoraodnowa_price-list_styles', get_theme_file_uri('/styles/price-list.css'));
 }
 
 add_action('wp_enqueue_scripts', 'skora_odnowa');
