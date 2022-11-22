@@ -138,7 +138,7 @@ section {
   font-size: calc(var(--main-font-size) + 1vmin);
   font-weight: 400;
   letter-spacing: var(--normal-lett-space);
-  margin: 3vmin;
+  margin: 3vmin 0;
   padding: 1vmin 0;
   display: inline-block;
 }

@@ -41,7 +41,8 @@
                   href="<?php echo site_url('/oferta') ?>">Cała oferta</a>
               </li>
               <li class="menu-primary__elem-sec">
-                <a href="<?php echo site_url('/konsultacje-kosmetologiczne') ?>"> Konsultacje kosmetologiczne </a>
+                <a href="<?php echo site_url('oferta/konsultacja-kosmetologiczna') ?>"> Konsultacja kosmetologiczna
+                </a>
               </li>
               <li class="menu-primary__elem-sec">
                 <a href=""> Specjalistyczne terapie skór trądzikowych </a>
@@ -102,18 +103,24 @@
       <nav class="header-menu-deskt__col">
         <ul class="menu-primary-deskt">
           <div class="menu-primary-deskt__wrap menu-primary__wrap--left">
-            <li class="menu-primary-deskt__elem-prime">
+            <li class="menu-primary-deskt__elem-prime <?php if (is_page('o-mnie')) echo 'elem-active' ?>">
               <a href="<?php echo site_url('/o-mnie') ?>" class="is-active">O mnie</a>
             </li>
-            <li class="menu-primary-deskt__elem-prime menu-primary-deskt__elem-prime--show-offer">
+            <li
+              class="menu-primary-deskt__elem-prime <?php if (is_page('oferta/') or strpos($_SERVER['REQUEST_URI'], 'oferta/') !== false) echo 'elem-active' ?> menu-primary-deskt__elem-prime--show-offer">
               <a href="<?php echo site_url('/oferta') ?>" class="menu-primary-deskt__show-offer">Oferta
               </a>
               <ul class="menu-primary-deskt__menu-sec">
-                <li class="menu-primary-deskt__elem-sec">
-                  <a href="<?php echo site_url('/konsultacja-kosmetologiczna') ?>"> Konsultacje kosmetologiczne </a>
+                <li
+                  class="menu-primary-deskt__elem-sec <?php if (is_page('oferta/konsultacja-kosmetologiczna')) echo 'elem-active' ?>">
+                  <a href="<?php echo site_url('oferta/konsultacja-kosmetologiczna') ?>"> Konsultacja kosmetologiczna
+                  </a>
                 </li>
-                <li class="menu-primary-deskt__elem-sec">
-                  <a href=""> Specjalistyczne terapie skór trądzikowych </a>
+                <li
+                  class="menu-primary-deskt__elem-sec <?php if (is_page('oferta/specjalistyczne-terapie-skor-tradzikowych')) echo 'elem-active' ?>">
+                  <a href="<?php echo site_url('oferta/specjalistyczne-terapie-skor-tradzikowych') ?>"> Specjalistyczne
+                    terapie skór trądzikowych
+                  </a>
                 </li>
                 <li class="menu-primary-deskt__elem-sec">
                   <a href=""> Oczyszczanie wodorowe </a>
@@ -138,11 +145,11 @@
                 </li>
               </ul>
             </li>
-            <li class="menu-primary-deskt__elem-prime">
+            <li class="menu-primary-deskt__elem-prime <?php if (is_page('cennik')) echo 'elem-active' ?>">
               <a href="<?php echo site_url('/cennik') ?>">Cennik</a>
             </li>
-            <li class="menu-primary-deskt__elem-prime">
-              <a href="<?php echo site_url('/metamorfozy') ?>"> Metamorfozy</a>
+            <li class="menu-primary-deskt__elem-prime <?php if (is_page('blog')) echo 'elem-active' ?>">
+              <a href="<?php echo site_url('/blog') ?>">Blog</a>
             </li>
           </div>
           <div class="menu-deskt-logo">
@@ -150,7 +157,7 @@
             </a>
           </div>
           <div class="menu-primary-deskt__wrap menu-primary__wrap--right">
-            <li class="menu-primary-deskt__elem-prime">
+            <li class="menu-primary-deskt__elem-prime <?php if (is_page('kontakt')) echo 'elem-active' ?>">
               <a href="<?php echo site_url('/kontakt') ?>"> Kontakt</a>
             </li>
             <button class="btn-visit">
