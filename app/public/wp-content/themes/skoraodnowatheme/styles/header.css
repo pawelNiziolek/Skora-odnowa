@@ -268,7 +268,7 @@
 }
 
 .social-button__icon img:hover {
-  box-shadow: 0 3px 10px 1px rgb(0 0 0 / 50%);
+  box-shadow: 0 3px 10px 1px rgba(0, 0, 0, 0.5);
 }
 
 @media(min-width: 640px) {
@@ -312,7 +312,8 @@
 
   .header-menu-deskt__overflow:hover {
     background-color: #fff;
-    box-shadow: 0 4px 20px -4px rgb(0 0 0 / 25%);
+    box-shadow: 0 4px 20px -4px rgba(0, 0, 0, 0.25);
+    ;
   }
 
   .header-menu-deskt__nav {
@@ -404,8 +405,8 @@
     left: 0;
     background-color: #fff;
     opacity: 0;
-    box-shadow: 0 4px 20px -4px rgb(0 0 0 / 25%);
-    border-radius: 5px;
+    box-shadow: 0 4px 20px -4px rgba(0, 0, 0, 0.25);
+    border-radius: 4px;
     transition: .3s;
   }
 

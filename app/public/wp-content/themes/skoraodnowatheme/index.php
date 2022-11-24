@@ -3,87 +3,116 @@
 // while(have_posts()) {
 //   the_post(); 
 ?>
-<div class="wrapper-content wrap-home">
-  <section class="video-prime">
-    <video src="" class="video-prime__movie" autoplay mute loop
-      poster="<?php echo get_theme_file_uri('/img/video-poster.jpg') ?>"></video>
-  </section>
-  <section class="blog-carousel">
 
-    <h2 class="h2-title">Dowiedz się wiecej</h2>
-    <!-- Swiper -->
-    <article class="swiper mySwiper">
-      <div class="swiper-wrapper">
-        <div class="swiper-slide"><a href=""><img src="<?php echo get_theme_file_uri('/img/video-poster.jpg') ?>"
-              alt="">
-            <div class="slide-text">
-              <h1>slide 1</h1>
-              <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Incidunt molestias aperiam</p>
-            </div>
-          </a></div>
-        <div class="swiper-slide"><a href=""><img src="<?php echo get_theme_file_uri('/img/video-poster.jpg') ?>"
-              alt="">
-            <div class="slide-text">
-              <h1>slide 1</h1>
-              <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Incidunt molestias aperiam</p>
-            </div>
-          </a></div>
-        <div class="swiper-slide"><a href=""><img src="<?php echo get_theme_file_uri('/img/video-poster.jpg') ?>"
-              alt="">
-            <div class="slide-text">
-              <h1>slide 1</h1>
-              <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Incidunt molestias aperiam</p>
-            </div>
-          </a></div>
-        <div class="swiper-slide"><a href=""><img src="<?php echo get_theme_file_uri('/img/video-poster.jpg') ?>"
-              alt="">
-            <div class="slide-text">
-              <h1>slide 1</h1>
-              <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Incidunt molestias aperiam</p>
-            </div>
-          </a></div>
-        <div class="swiper-slide"><a href=""><img src="<?php echo get_theme_file_uri('/img/video-poster.jpg') ?>"
-              alt="">
-            <div class="slide-text">
-              <h1>slide 1</h1>
-              <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Incidunt molestias aperiam</p>
-            </div>
-          </a></div>
+<div class="wrapper-content wrap-blog">
+  <section class="wrap-blog-list">
+    <h1 class="h2-title">Blog</h1>
+
+    <article class="content-wrapper">
+
+      <div class="news-card">
+        <a href="#" class="news-card__card-link"></a>
+        <img
+          src="https://images.pexels.com/photos/127513/pexels-photo-127513.jpeg?auto=compress&cs=tinysrgb&h=750&w=1260"
+          alt="" class="news-card__image">
+        <div class="news-card__text-wrapper">
+          <h2 class="news-card__title">Amazing First Title</h2>
+          <div class="news-card__post-date">Jan 29, 2018</div>
+          <div class="news-card__details-wrapper">
+            <p class="news-card__excerpt">Lorem ipsum dolor sit amet consectetur adipisicing elit. Est pariatur nemo
+              tempore
+              repellat? Ullam sed officia iure architecto deserunt distinctio, pariatur&hellip;</p>
+            <a href="#" class="news-card__read-more">Read more <i class="fas fa-long-arrow-alt-right"></i></a>
+          </div>
+        </div>
       </div>
-      <div class="swiper-pagination"></div>
+
+      <div class="news-card">
+        <a href="#" class="news-card__card-link"></a>
+        <img
+          src="https://images.pexels.com/photos/631954/pexels-photo-631954.jpeg?auto=compress&cs=tinysrgb&h=750&w=1260"
+          alt="" class="news-card__image">
+        <div class="news-card__text-wrapper">
+          <h2 class="news-card__title">Amazing Second Title that is Quite Long</h2>
+          <div class="news-card__post-date">Jan 29, 2018</div>
+          <div class="news-card__details-wrapper">
+            <p class="news-card__excerpt">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ullam obcaecati ex
+              natus
+              nulla rem sequi laborum quod fugit&hellip;</p>
+            <a href="#" class="news-card__read-more">Read more <i class="fas fa-long-arrow-alt-right"></i></a>
+          </div>
+        </div>
+      </div>
+
+      <div class="news-card">
+        <a href="#" class="news-card__card-link"></a>
+        <img
+          src="https://images.pexels.com/photos/247599/pexels-photo-247599.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=750&w=1260"
+          alt="" class="news-card__image">
+        <div class="news-card__text-wrapper">
+          <h2 class="news-card__title">Amazing Title</h2>
+          <div class="news-card__post-date">Jan 29, 2018</div>
+          <div class="news-card__details-wrapper">
+            <p class="news-card__excerpt">Lorem ipsum dolor sit amet consectetur adipisicing elit. Officiis
+              beatae&hellip;
+            </p>
+            <a href="#" class="news-card__read-more">Read more <i class="fas fa-long-arrow-alt-right"></i></a>
+          </div>
+        </div>
+      </div>
+
+      <div class="news-card">
+        <a href="#" class="news-card__card-link"></a>
+        <img
+          src="https://images.pexels.com/photos/248486/pexels-photo-248486.jpeg?auto=compress&cs=tinysrgb&h=750&w=1260"
+          alt="" class="news-card__image">
+        <div class="news-card__text-wrapper">
+          <h2 class="news-card__title">Amazing Forth Title that is Quite Long</h2>
+          <div class="news-card__post-date">Jan 29, 2018</div>
+          <div class="news-card__details-wrapper">
+            <p class="news-card__excerpt">Lorem ipsum dolor sit amet!</p>
+            <a href="#" class="news-card__read-more">Read more <i class="fas fa-long-arrow-alt-right"></i></a>
+          </div>
+        </div>
+      </div>
+
+      <div class="news-card">
+        <a href="#" class="news-card__card-link"></a>
+        <img
+          src="https://images.pexels.com/photos/206660/pexels-photo-206660.jpeg?auto=compress&cs=tinysrgb&h=750&w=1260"
+          alt="" class="news-card__image">
+        <div class="news-card__text-wrapper">
+          <h2 class="news-card__title">Amazing Fifth Title</h2>
+          <div class="news-card__post-date">Jan 29, 2018</div>
+          <div class="news-card__details-wrapper">
+            <p class="news-card__excerpt">Lorem ipsum dolor sit amet consectetur adipisicing elit. Est pariatur nemo
+              tempore
+              repellat? Ullam sed officia iure architecto deserunt distinctio&hellip;</p>
+            <a href="#" class="news-card__read-more">Read more <i class="fas fa-long-arrow-alt-right"></i></a>
+          </div>
+        </div>
+      </div>
+
+      <div class="news-card">
+        <a href="#" class="news-card__card-link"></a>
+        <img
+          src="https://images.pexels.com/photos/210243/pexels-photo-210243.jpeg?auto=compress&cs=tinysrgb&h=750&w=1260"
+          alt="" class="news-card__image">
+        <div class="news-card__text-wrapper">
+          <h2 class="news-card__title">Amazing 6<sup>th</sup> Title</h2>
+          <div class="news-card__post-date">Jan 29, 2018</div>
+          <div class="news-card__details-wrapper">
+            <p class="news-card__excerpt">Lorem ipsum dolor sit amet consectetur adipisicing elit. Est pariatur nemo
+              tempore
+              repellat? Ullam sed officia.</p>
+            <a href="#" class="news-card__read-more">Read more <i class="fas fa-long-arrow-alt-right"></i></a>
+          </div>
+        </div>
+      </div>
+
     </article>
-  </section>
 </div>
 
-<!-- Swiper JS -->
-<script src="https://cdn.jsdelivr.net/npm/swiper/swiper-bundle.min.js"></script>
-
-<!-- Initialize Swiper -->
-<script>
-var swiper = new Swiper(".mySwiper", {
-  slidesPerView: 3,
-  spaceBetween: 40,
-  freeMode: true,
-  // effect: 'flip',
-  breakpoints: {
-    // when window width is >= 320px
-    280: {
-      slidesPerView: 1.2,
-      spaceBetween: 20
-    },
-    // when window width is >= 480px
-    600: {
-      slidesPerView: 2.2,
-      spaceBetween: 30
-    },
-    // when window width is >= 640px
-    769: {
-      slidesPerView: 3.2,
-      spaceBetween: 40
-    }
-  }
-});
-</script>
 <?php
 
 get_footer();
