@@ -22,7 +22,7 @@ body {
   width: 100%;
   min-height: 100vh;
   max-width: 1920px;
-  padding: 50px 0 0;
+  padding: 0;
   margin: 0 auto;
 }
 
@@ -40,10 +40,8 @@ a {
 
 :root {
   --main-color: #111111;
-  --venusian-soi-color: rgb(240, 229, 211);
-  --venusian-skin-color: rgb(223, 192, 168);
-  --earthling-mint: rgb(172, 180, 147);
-  --earthling-grass: rgb(103, 116, 98);
+  --main-brown: #998E82;
+  --main-green: #E5DFD9;
   --main-font-size: 12px;
   --nav-elem-font-size: 13px;
   --nav-list-font-size: 15px;
@@ -62,7 +60,7 @@ a {
 }
 
 .wrapper-content {
-  margin-bottom: 10vmin;
+  margin: 100px auto;
 }
 
 section {
@@ -70,34 +68,24 @@ section {
 }
 
 .btn-visit {
-  background: linear-gradient(transparent 0%, var(--earthling-mint) 0%);
+  background: var(--main-color);
+  color: #fff;
   border: none;
   overflow: hidden;
   border-radius: 3px;
   height: 42px;
   max-width: 150px;
   box-sizing: border-box;
-  transition: 0.7s;
+  transition: 0.3s;
 }
 
 .btn-visit:hover {
-  background: linear-gradient(transparent, var(--earthling-mint) 90%);
-}
-
-.btn-visit:hover a {
-  color: var(--earthling-mint);
+  box-shadow: 0 3px 10px 1px rgba(0, 0, 0, 0.5);
 }
 
 .btn-visit--second {
-  background: linear-gradient(transparent 0%, var(--venusian-skin-color)0%);
-}
-
-.btn-visit--second:hover {
-  background: linear-gradient(transparent, var(--venusian-skin-color) 90%);
-}
-
-.btn-visit--second:hover a {
-  color: var(--venusian-skin-color);
+  background: var(--main-brown);
+  box-shadow: 0 0 0 1px rgba(0, 0, 0, 0.3);
 }
 
 .btn-visit a {
@@ -131,7 +119,7 @@ section {
 }
 
 .h2-title__important {
-  color: var(--venusian-skin-color);
+  color: var(--main-brown);
 }
 
 .p-normal {
@@ -141,6 +129,10 @@ section {
   margin: 3vmin 0;
   padding: 1vmin 0;
   display: inline-block;
+}
+
+.p-normal--small {
+  font-size: calc(var(--main-font-size) + .5vmin);
 }
 
 
@@ -154,22 +146,9 @@ section {
   transition: .3s;
 }
 
-.p-normal a::after {
-  content: "";
-  height: 1px;
-  width: 0;
-  margin: 0 auto;
-  background-color: var(--earthling-mint);
-  display: block;
-  transition: 0.3s;
-}
-
 .p-normal a:hover {
-  color: var(--earthling-mint);
-}
-
-.p-normal a:hover::after {
-  width: 100%;
+  color: var(--main-brown);
+  letter-spacing: 1.5px;
 }
 
 @media(min-width: 640px) {
@@ -179,12 +158,13 @@ section {
 }
 
 @media(min-width: 768px) {
-  body {
-    padding: 74px 0 0;
-  }
-
   :root {
     --main-font-size: 10px;
+  }
+
+
+  .wrapper-content {
+    margin: 130px auto 100px;
   }
 
   .p-normal {

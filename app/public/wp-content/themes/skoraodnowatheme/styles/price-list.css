@@ -13,13 +13,13 @@
   padding: calc(10px + 1vmin);
   border-radius: 2px;
   font-size: calc(var(--main-font-size) + 1vmin);
-  background-color: var(--earthling-grass);
+  background-color: var(--main-brown);
   color: white;
   line-height: 1.4;
 }
 
-.p-normal--important-green {
-  color: var(--earthling-mint);
+.p-normal--important-brown {
+  color: var(--main-brown);
 }
 
 .h2-title__big {

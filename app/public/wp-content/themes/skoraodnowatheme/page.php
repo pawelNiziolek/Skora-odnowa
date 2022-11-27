@@ -26,7 +26,7 @@ get_header();
         ewentualne badania laboratoryjne, które będą pomocne przy diagnozowaniu
         przyczyny problemu skórnego.
       </p>
-      <p class="p-normal p-normal--important-green">
+      <p class="p-normal p-normal--important-brown">
         <strong>Po wizycie klient otrzymuje spersonalizowany plan pielęgnacji wraz z
           zaleceniami w formie pdf na maila.</strong>
       </p>
