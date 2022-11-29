@@ -84,9 +84,9 @@ get_header();
       </li>
     </ul>
     <ul class="prices-treatments__list">
-      <h2 class="h2-title">SkinPen mikronakłuwanie</h2>
+      <h2 class="h2-title">SkinPen® mikronakłuwanie</h2>
       <li class="prices-treatments__list-item prices-treatments__list-item--more-treatments">
-        <p class="p-normal p-normal__treatment p-normal__treatment--out">SkinPen wersja podstawowa</p>
+        <p class="p-normal p-normal__treatment p-normal__treatment--out">SkinPen® wersja podstawowa</p>
         <div class="prices-treatments__wrap-span-big-prices"><span class="p-normal__span--big">twarz</span>
           <p class="p-normal p-normal__price">700zł</p>
         </div>
@@ -99,13 +99,14 @@ get_header();
         </div>
       </li>
       <li class="prices-treatments__list-item prices-treatments__list-item--more-treatments">
-        <p class="p-normal p-normal__treatment p-normal__treatment--out">SkinPen + Recovery Serum AQ</p>
+        <p class="p-normal p-normal__treatment p-normal__treatment--out">SkinPen® + Recovery Serum AQ</p>
         <div class="prices-treatments__wrap-span-big-prices "><span class="p-normal__span--big">twarz</span>
           <p class="p-normal p-normal__price">1100zł</p>
         </div>
       </li>
       <li class="prices-treatments__list-item prices-treatments__list-item--more-treatments">
-        <p class="p-normal p-normal__treatment p-normal__treatment--out">SkinPen + peeling medyczny/PRXT33/Biorepeel</p>
+        <p class="p-normal p-normal__treatment p-normal__treatment--out">SkinPen® + peeling medyczny/PRXT33/Biorepeel
+        </p>
         <div class="prices-treatments__wrap-span-big-prices"><span class="p-normal__span--big">twarz</span>
           <p class="p-normal p-normal__price">900zł</p>
         </div>

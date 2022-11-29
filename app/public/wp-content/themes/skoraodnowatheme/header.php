@@ -74,7 +74,7 @@
             <a href="<?php echo site_url('/cennik') ?>">Cennik</a>
           </li>
           <li class="menu-primary__elem-prime">
-            <a href="<?php echo site_url('/metamorfozy') ?>"> Metamorfozy</a>
+            <a href="<?php echo site_url('/blog') ?>"> Blog</a>
           </li>
           <li class="menu-primary__elem-prime">
             <a href="<?php echo site_url('/kontakt') ?>"> Kontakt</a>
