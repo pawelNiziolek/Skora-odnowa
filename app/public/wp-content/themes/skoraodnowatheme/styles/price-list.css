@@ -5,15 +5,15 @@
 
 .price-descript__img {
   width: calc(100% + calc(var(--padding-section) * 2));
-  margin: calc(30px + 1vmin) 0 0 calc((var(--padding-section) * -1));
+  margin: 0 0 0 calc((var(--padding-section) * -1));
 }
 
 .h2-title__important {
   text-align: center;
   padding: calc(10px + 1vmin);
-  border-radius: 2px;
   font-size: calc(var(--main-font-size) + 1vmin);
   background-color: var(--main-brown);
+  box-shadow: -3px 3px 0px 0px var(--shadow-color);
   color: white;
   line-height: 1.4;
 }

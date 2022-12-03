@@ -1,5 +1,9 @@
 @import "https://use.typekit.net/aee0lxy.css";
 
+html {
+  margin-top: 0 !important;
+}
+
 * {
   margin: 0;
   padding: 0;
@@ -42,7 +46,7 @@ a {
   --main-color: rgb(17, 17, 17);
   --main-brown: rgb(153, 142, 130);
   --main-green: rgb(229, 223, 217);
-  --main-font-size: 13px;
+  --main-font-size: 12px;
   --nav-elem-font-size: 14px;
   --nav-list-font-size: 16px;
   --shadow-color: rgb(118, 109, 100);
@@ -60,7 +64,7 @@ a {
 }
 
 .wrapper-content {
-  margin: 100px auto;
+  margin: 80px auto;
 }
 
 section {
@@ -72,7 +76,6 @@ section {
   color: #fff;
   border: none;
   overflow: hidden;
-  border-radius: 3px;
   height: 42px;
   max-width: 150px;
   box-sizing: border-box;
@@ -80,7 +83,7 @@ section {
 }
 
 .btn-visit:hover {
-  box-shadow: -3px 3px 0 0 var(--shadow-color);
+  box-shadow: -4px 4px 0 0 var(--shadow-color);
 }
 
 .btn-visit--second {
@@ -159,15 +162,22 @@ section {
 @media(min-width: 768px) {
   :root {
     --main-font-size: 10px;
+    --padding-section: 10vw;
   }
 
-
   .wrapper-content {
-    margin: 130px auto 100px;
+    margin: 80px auto 100px;
   }
 
   .p-normal {
     margin: 1vmin 0;
     padding: 0.5vmin;
+  }
+}
+
+
+@media(min-width: 1024px) {
+  .wrapper-content {
+    margin: 77px auto 100px;
   }
 }

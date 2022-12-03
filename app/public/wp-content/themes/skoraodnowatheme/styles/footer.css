@@ -11,8 +11,7 @@
   max-width: 1400px;
   margin: 0 auto;
   background-color: var(--main-green);
-  box-shadow: -3px -3px 0px 0px var(--main-brown);
-  border-radius: 4px;
+  box-shadow: 0 0 0 3px var(--shadow-color);
 }
 
 .wrap-footer__section {
@@ -69,7 +68,7 @@
 }
 
 .wrap-footer__social-button-icon img:hover {
-  box-shadow: -2px 2px 0 0 var(--shadow-color);
+  box-shadow: -3px 3px 0 0 var(--shadow-color);
 }
 
 .wrap-footer__footer-info-contact__details.p-normal {
@@ -97,6 +96,7 @@
 .wrap-footer__section-copy-reg {
   width: 100%;
   background-color: var(--main-color);
+  box-shadow: 0 0 0 3px var(--shadow-color);
   padding: 5px 10px;
   margin: 0;
 }
@@ -104,6 +104,7 @@
 .p-normal__copy-reg {
   display: inline-block;
   padding: 0 10px;
+  min-width: 100px;
   margin: 5px 0;
   color: #fff;
 }
