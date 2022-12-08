@@ -1,8 +1,40 @@
+/* logo style */
+.home .wrap-btn-mob-btn__logo img,
+.home .menu-deskt-logo img {
+  width: 100%;
+  height: auto;
+  max-width: none;
+  padding: 20vmin;
+  margin: 0 auto;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  z-index: 999;
+  max-width: 100%;
+  box-sizing: border-box;
+}
+
+.menu-deskt-logo img {
+  width: auto;
+  height: 100%;
+}
+
+/* logo style */
+
+
 .wrap-home,
 .video-prime__movie {
   width: auto;
   max-width: 100%;
-  min-height: 100vh;
+  margin-top: 100vh;
+}
+
+.video-prime {
+  padding: 0;
 }
 
 .video-prime__movie {

@@ -415,9 +415,9 @@
     top: 68px;
     left: 0;
     min-width: 370px;
-    background-color: #fff;
+    background-color: var(--main-green);
     opacity: 0;
-    box-shadow: 3px 3px 0 0 var(--shadow-color);
+    box-shadow: -3px 3px 0 0 var(--shadow-color);
     transition: opacity .3s, max-height .25s;
   }
 

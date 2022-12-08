@@ -18,7 +18,7 @@
         </div>
       </div>
       <a href="<?php echo site_url('/') ?>" class="wrap-btn-mob-btn__logo"><img
-          src="<?php echo get_theme_file_uri('/img/skora-odnowa-logo-menu.png') ?>" alt="" />
+          src="<?php echo get_theme_file_uri('/img/skora-odnowa-sigil-logo-tablica.png') ?>" alt="" />
       </a>
       <button class="btn-visit">
         <a href="<?php echo site_url('/umow-wizyte') ?>">Umów wizytę</a>
@@ -153,7 +153,8 @@
             </li>
           </div>
           <div class="menu-deskt-logo">
-            <a href="/"><img src="<?php echo get_theme_file_uri('/img/skora-odnowa-logo-menu.png') ?>" alt="" />
+            <a href="/"><img src="<?php echo get_theme_file_uri('/img/skora-odnowa-sigil-logo-tablica.png') ?>"
+                alt="" />
             </a>
           </div>
           <div class="menu-primary-deskt__wrap menu-primary__wrap--right">

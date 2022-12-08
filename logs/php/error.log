@@ -142,3 +142,22 @@ Stack trace:
 [22-Nov-2022 20:54:07 UTC] PHP Warning:  Undefined variable $url in C:\Users\pawel\Local Sites\Skora-odnowa\app\public\wp-content\themes\skoraodnowatheme\header.php on line 110
 [22-Nov-2022 20:54:07 UTC] PHP Warning:  Undefined variable $url in C:\Users\pawel\Local Sites\Skora-odnowa\app\public\wp-content\themes\skoraodnowatheme\header.php on line 110
 [22-Nov-2022 20:57:34 UTC] PHP Parse error:  syntax error, unexpected identifier "oferta", expecting ")" in C:\Users\pawel\Local Sites\Skora-odnowa\app\public\wp-content\themes\skoraodnowatheme\header.php on line 110
+[04-Dec-2022 16:01:47 UTC] PHP Fatal error:  Uncaught TypeError: call_user_func_array(): Argument #1 ($callback) must be a valid callback, function "/scripts/slider-blog.js" not found or invalid function name in C:\Users\pawel\Local Sites\Skora-odnowa\app\public\wp-includes\class-wp-hook.php:308
+Stack trace:
+#0 C:\Users\pawel\Local Sites\Skora-odnowa\app\public\wp-includes\class-wp-hook.php(332): WP_Hook->apply_filters(NULL, Array)
+#1 C:\Users\pawel\Local Sites\Skora-odnowa\app\public\wp-includes\plugin.php(517): WP_Hook->do_action(Array)
+#2 C:\Users\pawel\Local Sites\Skora-odnowa\app\public\wp-includes\script-loader.php(2180): do_action('wp_enqueue_scri...')
+#3 C:\Users\pawel\Local Sites\Skora-odnowa\app\public\wp-includes\class-wp-hook.php(308): wp_enqueue_scripts('')
+#4 C:\Users\pawel\Local Sites\Skora-odnowa\app\public\wp-includes\class-wp-hook.php(332): WP_Hook->apply_filters(NULL, Array)
+#5 C:\Users\pawel\Local Sites\Skora-odnowa\app\public\wp-includes\plugin.php(517): WP_Hook->do_action(Array)
+#6 C:\Users\pawel\Local Sites\Skora-odnowa\app\public\wp-includes\general-template.php(3043): do_action('wp_head')
+#7 C:\Users\pawel\Local Sites\Skora-odnowa\app\public\wp-content\themes\skoraodnowatheme\header.php(7): wp_head()
+#8 C:\Users\pawel\Local Sites\Skora-odnowa\app\public\wp-includes\template.php(783): require_once('C:\\Users\\pawel\\...')
+#9 C:\Users\pawel\Local Sites\Skora-odnowa\app\public\wp-includes\template.php(718): load_template('C:\\Users\\pawel\\...', true, Array)
+#10 C:\Users\pawel\Local Sites\Skora-odnowa\app\public\wp-includes\general-template.php(48): locate_template(Array, true, true, Array)
+#11 C:\Users\pawel\Local Sites\Skora-odnowa\app\public\wp-content\themes\skoraodnowatheme\front-page.php(1): get_header()
+#12 C:\Users\pawel\Local Sites\Skora-odnowa\app\public\wp-includes\template-loader.php(106): include('C:\\Users\\pawel\\...')
+#13 C:\Users\pawel\Local Sites\Skora-odnowa\app\public\wp-blog-header.php(19): require_once('C:\\Users\\pawel\\...')
+#14 C:\Users\pawel\Local Sites\Skora-odnowa\app\public\index.php(17): require('C:\\Users\\pawel\\...')
+#15 {main}
+  thrown in C:\Users\pawel\Local Sites\Skora-odnowa\app\public\wp-includes\class-wp-hook.php on line 308

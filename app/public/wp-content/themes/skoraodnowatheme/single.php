@@ -8,7 +8,7 @@ while (have_posts()) {
 <div class="wrapper-content wrap-single-post">
   <section class="post-header">
     <article class="post-header__wrap">
-      <img src="<?php echo get_theme_file_uri('/img/foto-agata/post1.jpg') ?>" alt="" class="post-header__img">
+      <img src="<?php echo get_theme_file_uri('/img/foto-agata/post1a.jpg') ?>" alt="" class="post-header__img">
       <h1 class="post-header__title"><?php the_title(); ?></h1>
     </article>
   </section>
