@@ -3,56 +3,104 @@
 // while(have_posts()) {
 //   the_post(); 
 ?>
+
 <div class="wrapper-content wrap-home">
   <!-- <div class="hide-all"></div> -->
   <section class="video-prime">
     <!-- <video src="" class="video-prime__movie" autoplay mute loop
-      poster="<?php echo get_theme_file_uri('/img/video-poster.jpg') ?>"></video> -->
+      poster="<?php echo get_theme_file_uri('/img/foto-agata/.jpg') ?>"></video> -->
     <picture>
       <source srcset="<?php echo get_theme_file_uri('/img/foto-agata/home-baner.jpg') ?>" media="(min-width: 1024px)" />
       <img src="<?php echo get_theme_file_uri('/img/foto-agata/home-baner-mob.jpg') ?>"
         alt="Skóra Odnowa Gabinet kosmetologii holistycznej baner główny" />
     </picture>
   </section>
+
   <section class="blog-carousel">
 
-    <h2 class="h2-title">Dowiedz się wiecej</h2>
+    <h2 class="h2-title">Dowiedz się więcej o zabiegach</h2>
     <!-- Swiper -->
     <article class="swiper mySwiper">
       <div class="swiper-wrapper">
-        <div class="swiper-slide"><a href=""><img src="<?php echo get_theme_file_uri('/img/video-poster.jpg') ?>"
-              alt="">
+        <div class="swiper-slide"><a href="">
+            <div class="slide-img kons-kos">
+            </div>
             <div class="slide-text">
-              <h1>slide 1</h1>
-              <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Incidunt molestias aperiam</p>
+              <h2 class="slide-title">Konsultacja kosmetologiczna</h2>
+              <p class="p-more">czytaj więcej ...
+              </p>
             </div>
           </a></div>
-        <div class="swiper-slide"><a href=""><img src="<?php echo get_theme_file_uri('/img/video-poster.jpg') ?>"
-              alt="">
+        <div class="swiper-slide"><a href="">
+            <div class="slide-img spec-ter">
+            </div>
             <div class="slide-text">
-              <h1>slide 1</h1>
-              <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Incidunt molestias aperiam</p>
+              <h2 class="slide-title">Specjalistyczne terapie skór trądzikowych</h2>
+              <p class="p-more">czytaj więcej ...
+              </p>
             </div>
           </a></div>
-        <div class="swiper-slide"><a href=""><img src="<?php echo get_theme_file_uri('/img/video-poster.jpg') ?>"
-              alt="">
+        <div class="swiper-slide"><a href="">
+            <div class="slide-img ocz-wod">
+            </div>
             <div class="slide-text">
-              <h1>slide 1</h1>
-              <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Incidunt molestias aperiam</p>
+              <h2 class="slide-title">Oczyszczanie wodorowe</h2>
+              <p class="p-more">czytaj więcej ...
+              </p>
             </div>
           </a></div>
-        <div class="swiper-slide"><a href=""><img src="<?php echo get_theme_file_uri('/img/video-poster.jpg') ?>"
-              alt="">
+        <div class="swiper-slide"><a href="">
+            <div class="slide-img mik-skin">
+            </div>
             <div class="slide-text">
-              <h1>slide 1</h1>
-              <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Incidunt molestias aperiam</p>
+              <h2 class="slide-title">Mikronakłówanie SkinPen®</h2>
+              <p class="p-more">czytaj więcej ...
+              </p>
             </div>
           </a></div>
-        <div class="swiper-slide"><a href=""><img src="<?php echo get_theme_file_uri('/img/video-poster.jpg') ?>"
-              alt="">
+        <div class="swiper-slide"><a href="">
+            <div class="slide-img mez-igl">
+            </div>
             <div class="slide-text">
-              <h1>slide 1</h1>
-              <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Incidunt molestias aperiam</p>
+              <h2 class="slide-title">Mezoterapia igłowa</h2>
+              <p class="p-more">czytaj więcej ...
+              </p>
+            </div>
+          </a></div>
+        <div class="swiper-slide"><a href="">
+            <div class="slide-img mez-oko">
+            </div>
+            <div class="slide-text">
+              <h2 class="slide-title">Mezoterapia okolicy oczu</h2>
+              <p class="p-more">czytaj więcej ...
+              </p>
+            </div>
+          </a></div>
+        <div class="swiper-slide"><a href="">
+            <div class="slide-img sty-tka">
+            </div>
+            <div class="slide-text">
+              <h2 class="slide-title">Stymulatory tkankowe</h2>
+              <p class="p-more">czytaj więcej ...
+              </p>
+            </div>
+          </a></div>
+        <div class="swiper-slide"><a href="">
+            <div class="slide-img ind-ter">
+            </div>
+            <div class="slide-text">
+              <h2 class="slide-title">Indywidualne terapie zabiegowe</h2>
+              <p class="p-more">czytaj więcej ...
+              </p>
+            </div>
+          </a></div>
+        <div class="swiper-slide"><a href="">
+            <div class="slide-img pee-med">
+            </div>
+            <div class="slide-text">
+              <h2 class="slide-title">Peelingi medyczne</h2>
+              <p class="p-more">czytaj więcej ...
+              </p>
             </div>
           </a></div>
       </div>
@@ -63,62 +111,13 @@
 
 <!-- Swiper JS -->
 <script src="https://cdn.jsdelivr.net/npm/swiper/swiper-bundle.min.js"></script>
+
+<!-- GSAP -->
 <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.11.3/gsap.min.js"></script>
 <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.11.3/ScrollTrigger.min.js"></script>
 
-<!-- Initialize Swiper -->
+
 <script>
-gsap.registerPlugin(ScrollTrigger);
-gsap.fromTo(['.wrap-btn-mob-btn__logo img', '.menu-deskt-logo img'], {
-  opacity: 1,
-  yPercent: 0
-}, {
-  yPercent: 0,
-  opacity: 1,
-  duration: 1,
-  ease: 'power3.out'
-});
-
-/* Logo to header animation */
-let logoTl = gsap.timeline({
-  scrollTrigger: {
-    trigger: document.body,
-    start: 0,
-    end: () => window.innerHeight,
-    scrub: 0.6
-  }
-});
-
-logoTl.fromTo('.wrap-btn-mob-btn__logo img', {
-  top: 0,
-  yPercent: 0,
-  scale: 1
-}, {
-  top: 0,
-  yPercent: -45.3,
-  scale: 0.132,
-  duration: 1
-});
-
-logoTl.fromTo('.menu-deskt-logo img', {
-  top: 0,
-  yPercent: 0,
-  scale: 1
-}, {
-  top: 0,
-  yPercent: -47,
-  scale: 0.07,
-  duration: 1
-}, 0.4);
-
-logoTl.fromTo(['.wrap-btn-mob__nav-btn', '.btn-visit', '.menu-primary-deskt__wrap'], {
-  opacity: 0
-}, {
-  opacity: 1,
-  duration: 1
-}, 0.1);
-
-
 document.addEventListener("DOMContentLoaded", function(event) {
 
   //wait until images, links, fonts, stylesheets, and js is loaded
@@ -129,29 +128,35 @@ document.addEventListener("DOMContentLoaded", function(event) {
       freeMode: true,
       // effect: 'flip',
       breakpoints: {
-        // when window width is >= 320px
+        // when window width is >= 280px
         280: {
           slidesPerView: 1.2,
           spaceBetween: 20
         },
-        // when window width is >= 480px
-        600: {
+        // when window width is >= 600px
+        530: {
           slidesPerView: 2.2,
-          spaceBetween: 30
+          spaceBetween: 25
         },
-        // when window width is >= 640px
-        769: {
+        // when window width is >= 1024px
+        1024: {
           slidesPerView: 3.2,
           spaceBetween: 40
+        },
+        // when window width is >= 1024px
+        1400: {
+          slidesPerView: 3.2,
+          spaceBetween: 60
         }
       }
     });
-
 
   }, false);
 
 });
 </script>
+
+
 <?php
 
 get_footer();

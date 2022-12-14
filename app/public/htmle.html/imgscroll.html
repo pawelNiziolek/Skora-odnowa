@@ -1,0 +1,217 @@
+<div id="smooth-wrapper">
+  <div id="smooth-content">
+    <div class="grid-section">
+      <div class="grid-layout">
+        <div class="column column-1" data-speed="1.1">
+          <div class="column-content">
+            <div class="grid-image">
+              <img src="/app/public/wp-content/themes/skoraodnowatheme/img/foto-agata/DSC_6795.jpg" alt="">
+            </div>
+            <div class="grid-image">
+              <img src="/app/public/wp-content/themes/skoraodnowatheme/img/foto-agata/DSC_6799.jpg" alt="">
+            </div>
+            <div class="grid-image">
+              <img src="/app/public/wp-content/themes/skoraodnowatheme/img/foto-agata/DSC_6795.jpg" alt="">
+            </div>
+          </div>
+        </div>
+        <div class="column column-2" data-speed="1.01">
+          <div class="column-content">
+            <div class="grid-image">
+              <img src="/app/public/wp-content/themes/skoraodnowatheme/img/foto-agata/DSC_7673.jpg" alt="">
+            </div>
+            <div class="grid-image">
+              <img src="/app/public/wp-content/themes/skoraodnowatheme/img/foto-agata/DSC_6858.jpg" alt="">
+            </div>
+            <div class="grid-image">
+              <img src="/app/public/wp-content/themes/skoraodnowatheme/img/foto-agata/DSC_7868.jpg" alt="">
+            </div>
+          </div>
+        </div>
+        <div class="column column-3" data-speed="1.1">
+          <div class="column-content">
+            <div class="grid-image">
+              <img src="/app/public/wp-content/themes/skoraodnowatheme/img/foto-agata/DSC_8546.jpg" alt="">
+            </div>
+            <div class="grid-image">
+              <img src="/app/public/wp-content/themes/skoraodnowatheme/img/foto-agata/DSC_8609.jpg" alt="">
+            </div>
+            <div class="grid-image">
+              <img src="/app/public/wp-content/themes/skoraodnowatheme/img/foto-agata/DSC_7745.jpg" alt="">
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div class="spacer"></div>
+  </div>
+</div>
+
+<style>
+  .parallax-section {
+    height: 100vh;
+    width: 100%;
+    overflow: hidden;
+    top: 0;
+    padding: 0 1rem;
+    transform-origin: center top;
+  }
+
+  .parallax-image {
+    height: 200vh;
+    width: 100%;
+    object-fit: cover;
+    will-change: transform;
+  }
+
+  .grid-section {
+    width: 100%;
+    overflow: visible;
+    z-index: 2;
+  }
+
+  .grid-layout {
+    display: flex;
+    display: grid;
+    height: 100%;
+    width: 100%;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-gap: 1rem;
+    transform-origin: center top;
+  }
+
+  .column {
+    height: 100%;
+  }
+
+  .panel {
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+
+  .column-content {
+    display: grid;
+    grid-template-rows: 45vh 45vh 45vh;
+    grid-gap: 1rem;
+    height: 100%;
+  }
+
+  .grid-image {
+    width: 100%;
+  }
+
+  .grid-image img {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+  }
+
+  .spacer {
+    height: 20vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+</style>
+
+<script>
+  gsap.registerPlugin(ScrollTrigger, ScrollSmoother);
+
+  const smoother = ScrollSmoother.create({
+    smooth: 2,
+    effects: true,
+    // normalizeScroll: true,
+    smoothTouch: 0.1,
+  });
+
+  // let paths = gsap.utils.toArray("#logo-scroll path, #logo-smoother path, #logo-mouse");
+
+  let distPaths = gsap.utils.distribute({
+    base: -300,
+    amount: 600,
+  });
+
+  // let logoTl = gsap.timeline({
+  //   scrollTrigger: {
+  //     trigger: ".logo-section",
+  //     scrub: 1,
+  //     start: "bottom 95%",
+  //     end: "bottom center"
+  //   }
+  // });
+
+  // logoTl.to(paths, { x: distPaths })
+  //   .to([...paths, byGreensock], { opacity: 0 }, 0)
+
+  let gridTl = gsap.timeline({
+    scrollTrigger: {
+      trigger: ".grid-section",
+      scrub: 1,
+      start: "top center",
+      end: "bottom+=10% bottom",
+    },
+    defaults: {
+      ease: "power1.inOut"
+    }
+  });
+
+  gridTl.add("start")
+    .from(".grid-layout", {
+      ease: "power1",
+      scale: 3
+    }, "start")
+    .from(".column-1 .grid-image", {
+      duration: 0.6,
+      xPercent: i => -((i + 1) * 40 + i * 100),
+      yPercent: i => (i + 1) * 40 + i * 100
+    }, "start")
+    .from(".column-3 .grid-image", {
+      duration: 0.6,
+      xPercent: i => (i + 1) * 40 + i * 100,
+      yPercent: i => (i + 1) * 40 + i * 100
+    }, "start");
+
+  gsap.from(".parallax-section", {
+    scale: 1 / 3,
+    scrollTrigger: {
+      trigger: ".parallax-section",
+      scrub: 1
+    }
+  });
+
+  // let pinSection = document.querySelector(".pin-section")
+  // let pinContent1 = document.querySelector(".pin-content-1")
+  // let pinContent2 = document.querySelector(".pin-content-2")
+
+  // let pinTl = gsap.timeline({
+  //   scrollTrigger: {
+  //     pin: true,
+  //     trigger: pinSection,
+  //     scrub: true,
+  //     start: "top top",
+  //     end: () => `$+=${pinContent1.offsetWidth}`,
+  //     invalidateOnRefresh: true
+  //   }
+  // });
+
+  // pinTl.fromTo(".pin-content-1", {
+  //   x: () => document.body.clientWidth * 0.9
+  // }, {
+  //   x: () => -(pinContent1.offsetWidth),
+  //   ease: "none"
+  // }, 0)
+
+  // pinTl.fromTo(".pin-content-2", {
+  //   x: () => -pinContent2.offsetWidth + document.body.clientWidth * 0.1
+  // }, {
+  //   x: () => document.body.clientWidth,
+  //   ease: "none"
+  // }, 0);
+
+</script>

@@ -11,11 +11,15 @@
   max-width: 1400px;
   margin: 0 auto;
   background-color: var(--main-green);
-  box-shadow: 0 0 0 3px var(--shadow-color);
+  box-shadow: -3px 3px 0 0 var(--shadow-color);
 }
 
 .wrap-footer__section {
   margin: 30px 0 0;
+}
+
+.wrap-footer__wrap-section .h2-title {
+  margin: 3vmin 0 1vmin;
 }
 
 .footer-visit {

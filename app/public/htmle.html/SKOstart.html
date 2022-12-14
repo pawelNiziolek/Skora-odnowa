@@ -1,0 +1,261 @@
+<style>
+  @import url("https://use.typekit.net/aee0lxy.css");
+
+  * {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+
+  .main {
+    max-width: 1920px;
+    min-height: 100vh;
+    margin: 15vw auto;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+  }
+
+  .main__img-logo {
+    max-width: 450px;
+    width: 65vw;
+  }
+
+  .main__title {
+    font-weight: 400;
+    font-style: normal;
+    font-size: 3.6vw;
+    letter-spacing: 0.5vw;
+    text-transform: uppercase;
+    padding: 40px 0;
+    font-family: como, sans-serif;
+  }
+
+  .main__title--logo {
+    padding-top: 12vw;
+    padding-bottom: 12vw;
+    font-size: 3.2vw;
+  }
+
+  .main__title.main__title--small {
+    text-transform: initial;
+    padding: 6px 0;
+    font-weight: 300;
+    letter-spacing: 1px;
+  }
+
+  .main__title.main__title--p {
+    padding-bottom: 0;
+  }
+
+  .main__title.main__title--adress {
+    padding-top: 40px;
+    padding-bottom: 20px;
+  }
+
+  .main__span-city {
+    color: transparent;
+  }
+
+  .booksy-widget-container-default.booksy-widget-container-pl {
+    margin: 20px 0 0;
+  }
+
+  .booksy-widget-container-default.booksy-widget-container-pl .booksy-widget-button {
+    background-image: url("https://skoraodnowa.pl/wp-content/uploads/2022/12/btn-boksy.png");
+
+    color: #fff;
+    border: none;
+    border-radius: 0;
+    box-sizing: border-box;
+    margin-bottom: 10px;
+  }
+
+  .booksy-widget-container-default.booksy-widget-container-pl .booksy-widget-button:hover {
+    box-shadow: -4px 4px 0 0 rgb(118, 109, 100);
+    transform: scale(1);
+  }
+
+  .booksy-widget-container-default.booksy-widget-container-pl .booksy-business-link {
+    display: none;
+  }
+
+  .main a {
+    display: inline-block;
+    color: rgb(17, 17, 17);
+    text-decoration: none;
+    letter-spacing: 1px;
+    font-weight: bold;
+  }
+
+  .main a strong {
+    transition: .3s;
+  }
+
+  a.main__title>strong:hover {
+    letter-spacing: 1.5px;
+  }
+
+  .btn-visit a {
+    color: white;
+    padding: 20px;
+  }
+
+  .social-button__icon {
+    display: inline-block;
+    width: 40px;
+    margin: 20px;
+    box-sizing: border-box;
+    transition: transform 0.3s;
+  }
+
+  .social-button__icon img {
+    display: block;
+    border-radius: 50%;
+    width: 100%;
+    max-width: 100%;
+    transition: 0.25s;
+  }
+
+  .social-button__icon img:hover {
+    box-shadow: -3px 3px 0 0 rgb(118, 109, 100);
+  }
+
+  @media (min-width: 530px) and (orientation: landscape) {
+    .main {
+      margin: 5vw auto;
+    }
+
+    .main__img-logo {
+      width: 25vw;
+    }
+
+    .main__title {
+      font-size: 1.6vw;
+      letter-spacing: 0.18vw;
+    }
+
+    .main__title--logo {
+      font-size: 1.2vw;
+      padding-top: 3vw;
+      padding-bottom: 3vw;
+    }
+  }
+
+  @media (min-width: 760px) and (orientation: portrait) {
+    .main {
+      margin: 8vw auto;
+    }
+
+    .main__img-logo {
+      width: 40vw;
+    }
+
+    .main__title {
+      font-size: 1.2vw;
+      letter-spacing: 0.3vw;
+    }
+
+    .main__title--logo {
+      font-size: 1.5vw;
+      padding-top: 6vw;
+      padding-bottom: 7vw;
+    }
+  }
+
+  @media (min-width: 1024px) {
+    .main {
+      margin: 5vw auto;
+    }
+
+    .main__img-logo {
+      width: 26vw;
+    }
+
+    .main__title {
+      font-size: 1.1vw;
+      letter-spacing: 0.14vw;
+    }
+
+    .main__title--logo {
+      font-size: 1vw;
+      padding-top: 5vw;
+      padding-bottom: 5vw;
+    }
+  }
+
+  @media (min-width: 1360px) {
+    .main__title {
+      font-size: 17px;
+      letter-spacing: 2.6px;
+    }
+
+    .main__title--logo {
+      font-size: 1vw;
+      padding-top: 60px;
+      padding-bottom: 60px;
+    }
+  }
+
+  @media (min-width: 1600px) {
+    .main {
+      margin: 100px auto;
+    }
+
+    .main__title {
+      font-size: 20px;
+      letter-spacing: 3px;
+    }
+
+    .main__title--logo {
+      font-size: 17px;
+      padding-top: 70px;
+      padding-bottom: 70px;
+    }
+  }
+</style>
+
+<header class="main">
+  <div class="main__logo">
+    <img src="https://skoraodnowa.pl/wp-content/uploads/2022/12/skora-odnowa-logo1.png"
+      alt="Skóra odnowa Gdynia - Gabinet kosmetologii holistycznej"
+      title="Skóra odnowa Gdynia - Gabinet kosmetologii holistycznej" class="main__img-logo">
+  </div>
+  <h1 class="main__title main__title--logo">
+    Gabinet kosmetologii holistycznej<br>
+  </h1>
+
+  <h2 class="main__title main__title--small">
+    Terapia trądziku, blizn i przebarwień
+  </h2>
+  <h2 class="main__title main__title--small">Terapia anti-aging</h2>
+  <h2 class="main__title main__title--small">SkinPen®</h2>
+  <h2 class="main__title main__title--small">Mezoterapia igłowa</h2>
+  <h2 class="main__title main__title--small">Stymulatory tkankowe</h2>
+  <h2 class="main__title main__title--small">Spersonalizowane plany pielęgnacyjne</h2>
+  <h2 class="main__title main__title--small">Wodorowe oczyszczanie</h2>
+  <h2 class="main__title main__title--small">Spotkania online</h2>
+  <h2 class="main__title main__title--small">Autorskie procedury zabiegowe</h2>
+  <br>
+  <p class="main__title main__title--adress">Adres:</p>
+  <p class="main__title main__title--small"><strong>Słupecka 45 Gdynia</strong></p>
+  <a href="tel:733 294 468" class="main__title main__title--small">tel: <strong>733 294 468</strong></a>
+  <a href="mailto:skoraodnowa.gdynia@gmail.com" class="main__title main__title--small">email:
+    <strong>skoraodnowa.gdynia@gmail.com</strong></a>
+  </br>
+  <script type="text/javascript" src="https://booksy.com/widget/code.js?id=167074&country=pl&lang=pl"></script>
+  </br>
+  <div class="social-button">
+    <a href="https://www.facebook.com/profile.php?id=100087218826946"
+      class="social-button__icon social-button__icon--fb"><img
+        src="https://skoraodnowa.pl/wp-content/uploads/2022/12/facebook.png" alt="Facebook Skóra Odnowa Gdynia" /></a>
+    <a href="https://instagram.com/skoraodnowa.gdynia?igshid=YmMyMTA2M2Y="
+      class="social-button__icon social-button__icon--insta"><img
+        src="https://skoraodnowa.pl/wp-content/uploads/2022/12/instagram.png" alt="Instagram Skóra Odnowa Gdynia" /></a>
+  </div>
+  <br>
+  <p class="main__title">Zapraszamy!</p>
+</header>
+

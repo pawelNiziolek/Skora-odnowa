@@ -9,6 +9,10 @@
 </head>
 
 <body <?php body_class(); ?>>
+  <div class="loading-page">
+    <img src="<?php echo get_theme_file_uri('/img/loading-page.png') ?>" alt="">
+  </div>
+
   <div class="header-menu-mob__overflow mob-nav-anim">
     <div class="wrap-btn-mob  mob-nav-anim">
       <div class="wrap-btn-mob__nav-btn">
@@ -176,6 +180,16 @@
       </nav>
     </header>
   </div>
+
+  <script>
+  const loadingPage = document.querySelector(".loading-page");
+  window.addEventListener('DOMContentLoaded', () => {
+    console.log("start");
+    console.log(document.querySelector(".loading-page"));
+    loadingPage.classList.add("loading-page--hide");
+    console.log("end");
+  })
+  </script>
 
   <script>
   const hamMenu = document.querySelector(
