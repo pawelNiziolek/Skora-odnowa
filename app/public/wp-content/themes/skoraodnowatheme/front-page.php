@@ -7,13 +7,14 @@
 <div class="wrapper-content wrap-home">
   <!-- <div class="hide-all"></div> -->
   <section class="video-prime">
-    <!-- <video src="" class="video-prime__movie" autoplay mute loop
-      poster="<?php echo get_theme_file_uri('/img/foto-agata/.jpg') ?>"></video> -->
-    <picture>
+    <video src="<?php echo get_theme_file_uri('/img/video/strona-glowna.mp4') ?>" class="video-prime__movie"
+      autoplay="true" mute loop>
+    </video>
+    <!-- <picture>
       <source srcset="<?php echo get_theme_file_uri('/img/foto-agata/home-baner.jpg') ?>" media="(min-width: 1024px)" />
       <img src="<?php echo get_theme_file_uri('/img/foto-agata/home-baner-mob.jpg') ?>"
         alt="Skóra Odnowa Gabinet kosmetologii holistycznej baner główny" />
-    </picture>
+    </picture> -->
   </section>
 
   <section class="blog-carousel">
@@ -53,7 +54,7 @@
             <div class="slide-img mik-skin">
             </div>
             <div class="slide-text">
-              <h2 class="slide-title">Mikronakłówanie SkinPen®</h2>
+              <h2 class="slide-title">Mikronakłuwanie SkinPen®</h2>
               <p class="p-more">czytaj więcej ...
               </p>
             </div>
@@ -98,7 +99,7 @@
             <div class="slide-img pee-med">
             </div>
             <div class="slide-text">
-              <h2 class="slide-title">Peelingi medyczne</h2>
+              <h2 class="slide-title">Zabiegi oczyszczające</h2>
               <p class="p-more">czytaj więcej ...
               </p>
             </div>
@@ -134,7 +135,7 @@ document.addEventListener("DOMContentLoaded", function(event) {
           spaceBetween: 20
         },
         // when window width is >= 600px
-        530: {
+        620: {
           slidesPerView: 2.2,
           spaceBetween: 25
         },

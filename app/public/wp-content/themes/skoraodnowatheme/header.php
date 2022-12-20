@@ -55,7 +55,7 @@
                 <a href=""> Oczyszczanie wodorowe </a>
               </li>
               <li class="menu-primary__elem-sec">
-                <a href=""> Mikronakłówanie SkinPen® </a>
+                <a href=""> Mikronakłuwanie SkinPen® </a>
               </li>
               <li class="menu-primary__elem-sec">
                 <a href=""> Mezoterapia igłowa </a>
@@ -70,7 +70,7 @@
                 <a href=""> Indywidualne terapie zabiegowe </a>
               </li>
               <li class="menu-primary__elem-sec">
-                <a href=""> Peelingi medyczne </a>
+                <a href="">Zabiegi oczyszczające</a>
               </li>
             </ul>
           </li>
@@ -130,7 +130,7 @@
                   <a href=""> Oczyszczanie wodorowe </a>
                 </li>
                 <li class="menu-primary-deskt__elem-sec">
-                  <a href=""> Mikronakłówanie SkinPen® </a>
+                  <a href=""> Mikronakłuwanie SkinPen® </a>
                 </li>
                 <li class="menu-primary-deskt__elem-sec">
                   <a href=""> Mezoterapia igłowa </a>
@@ -145,7 +145,7 @@
                   <a href=""> Indywidualne terapie zabiegowe </a>
                 </li>
                 <li class="menu-primary-deskt__elem-sec">
-                  <a href=""> Peelingi medyczne </a>
+                  <a href="">Zabiegi oczyszczające </a>
                 </li>
               </ul>
             </li>
@@ -173,7 +173,7 @@
                   src="<?php echo get_theme_file_uri('/img/facebook.png') ?>" alt="Facebook Skóra odnowa Gdynia" /></a>
               <a href="" class="social-button__icon social-button__icon--insta"><img
                   src="<?php echo get_theme_file_uri('/img/instagram.png') ?>"
-                  alt="Instagram Skóra odnowa Gdynia" /></a>
+                  alt="Instagram Skóra Odnowa Gdynia" /></a>
             </div>
           </div>
         </ul>
@@ -184,10 +184,7 @@
   <script>
   const loadingPage = document.querySelector(".loading-page");
   window.addEventListener('DOMContentLoaded', () => {
-    console.log("start");
-    console.log(document.querySelector(".loading-page"));
     loadingPage.classList.add("loading-page--hide");
-    console.log("end");
   })
   </script>
 
