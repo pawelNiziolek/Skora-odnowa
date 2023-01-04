@@ -1,0 +1,52 @@
+@import "https://use.typekit.net/aee0lxy.css";
+
+.h2-title {
+  font-size: calc(var(--main-font-size) + 1vmin);
+  text-transform: uppercase;
+  font-weight: 400;
+  letter-spacing: var(--normal-lett-space);
+  font-weight: bold;
+  margin: 7vmin 0 2vmin;
+
+  &__big {
+    font-size: calc(var(--main-font-size) + 2vmin);
+    padding: calc(10px + 1vmin) 0 calc(5px + 1vmin);
+  }
+
+  &__important {
+    color: var(--main-brown);
+  }
+}
+
+.p-normal {
+  font-size: calc(var(--main-font-size) + 1vmin);
+  font-weight: 400;
+  letter-spacing: var(--normal-lett-space);
+  margin: 3vmin 0;
+  padding: 1vmin 0;
+  display: inline-block;
+
+  @include mq('md') {
+    margin: 1vmin 0;
+    padding: 0.5vmin;
+  }
+
+  &--small {
+    font-size: calc(var(--main-font-size) + .5vmin);
+  }
+
+  & a {
+    display: inline-block;
+    color: var(--main-color);
+    text-decoration: none;
+    width: max-content;
+    font-weight: 600;
+    padding: 2px 0;
+    transition: .3s;
+
+    &:hover {
+      color: var(--main-brown);
+      letter-spacing: 1.5px;
+    }
+  }
+}

@@ -37,12 +37,12 @@
   animation: hideLPimg .5s ease-out;
 }
 
-.header-menu-deskt__overflow {
+.header-menu-deskt {
   display: none;
   z-index: 99;
 }
 
-.header-menu-mob__overflow {
+.header-menu-mob {
   top: 0;
   bottom: 0;
   position: fixed;
@@ -68,7 +68,7 @@
   }
 }
 
-.header-menu-mob__overflow.active {
+.header-menu-mob.active {
   height: auto;
   overflow-y: scroll;
   overflow-x: hidden;
@@ -94,7 +94,7 @@
   transition-delay: 0s;
 }
 
-.wrap-btn-mob__nav-btn-wrap-span {
+.wrap-btn-mob__nav-btn--wrap-span {
   position: relative;
   display: flex;
   flex-direction: column;
@@ -342,11 +342,11 @@
 /* ----------- nav desktop ------------- */
 
 @media (min-width: 1024px) {
-  .header-menu-mob__overflow {
+  .header-menu-mob {
     display: none;
   }
 
-  .header-menu-deskt__overflow {
+  .header-menu-deskt {
     display: block;
     position: fixed;
     top: 0;
@@ -357,7 +357,7 @@
     transition: background-color .3s, box-shadow .3s;
   }
 
-  .header-menu-deskt__overflow:hover {
+  .header-menu-deskt:hover {
     background-color: var(--main-green);
     box-shadow: 0 3px 0px 0px var(--shadow-color);
   }
@@ -478,7 +478,7 @@
     transition: max-height .6s;
   }
 
-  .header-menu-deskt__overflow .btn-visit a {
+  .header-menu-deskt .btn-visit a {
     padding: 0 20px;
   }
 

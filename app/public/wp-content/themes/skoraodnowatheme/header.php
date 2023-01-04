@@ -13,10 +13,10 @@
     <img src="<?php echo get_theme_file_uri('/img/loading-page.png') ?>" alt="">
   </div>
 
-  <div class="header-menu-mob__overflow mob-nav-anim">
+  <div class="header-menu-mob mob-nav-anim">
     <div class="wrap-btn-mob  mob-nav-anim">
       <div class="wrap-btn-mob__nav-btn">
-        <div class="wrap-btn-mob__nav-btn wrap-btn-mob__nav-btn-wrap-span">
+        <div class="wrap-btn-mob__nav-btn wrap-btn-mob__nav-btn--wrap-span">
           <span class="wrap-btn-mob__span mob-nav-anim"></span><span
             class="wrap-btn-mob__span wrap-btn-mob__span--sec mob-nav-anim"></span>
         </div>
@@ -102,7 +102,7 @@
 
   <!-- menu desktop -->
 
-  <div class="header-menu-deskt__overflow">
+  <div class="header-menu-deskt">
     <header class="header-menu-deskt__nav">
       <nav class="header-menu-deskt__col">
         <ul class="menu-primary-deskt">
