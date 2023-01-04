@@ -1,0 +1,150 @@
+.header-menu-deskt {
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  padding: 0 10px;
+  background-color: rgba(255, 255, 255, .3);
+  transition: background-color .3s, box-shadow .3s;
+
+  &:hover {
+    background-color: var(--main-green);
+    box-shadow: 0 3px 0px 0px var(--shadow-color);
+  }
+
+  &__nav {
+    max-width: 1400px;
+    margin: 0 auto;
+  }
+
+  & .btn-visit a {
+    padding: 0 20px;
+  }
+}
+
+.menu-primary-deskt {
+  @include flex-center;
+
+  &__wrap {
+    @include flex-center;
+    width: calc(50% - 110px);
+    justify-content: space-between;
+  }
+
+  &__elem-prime {
+    list-style: none;
+    position: relative;
+
+    &>a {
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      height: 65px;
+      font-size: calc(var(--nav-list-font-size) - 2px);
+      letter-spacing: var(--btn-lett-space);
+      color: var(--main-color);
+      font-weight: 700;
+      text-transform: uppercase;
+      display: inline-block;
+      line-height: 1.2;
+      text-decoration: none;
+      transition: .3s;
+
+      @include mq(xl) {
+        font-size: var(--nav-list-font-size);
+      }
+
+      &:hover {
+        color: var(--shadow-color);
+      }
+    }
+
+    &:not(.menu-deskt-logo)>a::after {
+      content: "";
+      height: 2px;
+      width: 0;
+      margin: 2px auto;
+      background-color: var(--shadow-color);
+      display: block;
+      transition: 0.3s;
+    }
+
+    &.elem-active>a {
+      color: var(--shadow-color);
+    }
+
+    &--show-offer:hover .menu-primary-deskt__menu-sec {
+      max-height: 1000px;
+      opacity: 1;
+      transition: max-height .6s;
+    }
+  }
+
+  &__elem-sec {
+    &>a {
+      font-size: var(--nav-elem-font-size);
+      font-weight: 500;
+      text-transform: initial;
+      padding: 15px 15px 2px;
+      width: max-content;
+      letter-spacing: var(--btn-lett-space);
+      color: var(--main-color);
+      display: inline-block;
+      line-height: 1.2;
+      text-decoration: none;
+      transition: .3s;
+
+      @include mq(xl) {
+        font-size: var(--nav-list-font-size);
+      }
+
+      &::after {
+        content: "";
+        height: 2px;
+        width: 0;
+        margin: 2px auto;
+        background-color: var(--shadow-color);
+        display: block;
+        transition: 0.3s;
+      }
+
+      &:hover {
+        letter-spacing: 1.5px;
+        color: #000;
+        font-weight: 600;
+      }
+    }
+
+    &.elem-active>a {
+      font-weight: bold;
+    }
+
+    &:last-child {
+      padding-bottom: 15px;
+    }
+  }
+
+  &__menu-sec {
+    max-height: 0;
+    list-style: none;
+    overflow: hidden;
+    position: absolute;
+    top: 68px;
+    left: 0;
+    min-width: 420px;
+    background-color: var(--main-green);
+    opacity: 0;
+    box-shadow: -3px 3px 0 0 var(--shadow-color);
+    transition: opacity .3s, max-height .25s;
+  }
+}
+
+.menu-deskt-logo {
+  padding: 3px 30px 2px;
+  box-sizing: border-box;
+
+  & img {
+    width: 55px;
+    transition: .27s;
+  }
+}

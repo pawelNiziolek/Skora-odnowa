@@ -15,6 +15,10 @@
 .header-menu-deskt {
   display: none;
   z-index: 99;
+
+  @include mq(lg) {
+    display: block;
+  }
 }
 
 .header-menu-mob {
@@ -27,6 +31,10 @@
   opacity: 1;
   transition: 0.4s;
   animation: hiddenMenuLoad .7s linear;
+
+  @include mq(lg) {
+    display: none;
+  }
 
   &.active {
     height: auto;
@@ -265,6 +273,18 @@
     margin-right: 10px;
     margin-top: 20px;
     margin-left: 10px;
+  }
+
+  @include mq(lg) {
+    transform: translateX(0px);
+    margin-top: 0;
+    margin-right: 0;
+    margin-left: 20px;
+    opacity: 1;
+  }
+
+  @include mq(xl) {
+    margin-left: 30px;
   }
 
   &--insta {

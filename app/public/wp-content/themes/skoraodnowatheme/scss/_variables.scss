@@ -5,7 +5,7 @@ $breakpoints: (
   sm: 'min-width: 640px',
   md: 'min-width: 768px',
   lg: 'min-width: 1024px',
-  xl: 'min-width: 1200px',
+  xl: 'min-width: 1240px',
   xxl: 'min-width: 1440px',
   xxxl: 'min-width: 1600px',
   hd: 'min-width: 1920px',
@@ -46,4 +46,10 @@ $breakpoints: (
     --main-font-size: 10px;
     --padding-section: 10vw;
   }
+}
+
+@mixin flex-center {
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
 }
