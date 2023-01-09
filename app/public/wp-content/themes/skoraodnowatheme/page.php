@@ -6,7 +6,7 @@ get_header();
 <div class="wrapper-content wrap-all-prices">
   <section class="prices-descript">
     <article class="price-descript price-descript__img">
-      <img src="<?php echo get_theme_file_uri('/img/foto-agata/cennik-main1.jpg') ?>" alt="">
+      <img loading="lazy" src="<?php echo get_theme_file_uri('/img/foto-agata/cennik-main1.jpg') ?>" alt="">
     </article>
     <article class="price-descript price-descript__text">
       <h2 class="h2-title h2-title__important">Pierwsza wizyta w gabinecie, <strong>zawsze</strong> rozpoczyna się

@@ -14,7 +14,13 @@
   }
 
   &__important {
-    color: var(--main-brown);
+    text-align: center;
+    padding: calc(10px + 1vmin);
+    font-size: calc(var(--main-font-size) + 1vmin);
+    background-color: var(--main-brown);
+    box-shadow: -3px 3px 0px 0px var(--shadow-color);
+    color: white;
+    line-height: 1.4;
   }
 }
 
@@ -35,7 +41,26 @@
     font-size: calc(var(--main-font-size) + .5vmin);
   }
 
-  & a {
+  &__span {
+    font-weight: bold;
+
+    &--small {
+      font-weight: normal;
+      font-size: calc(var(--main-font-size) + 0.1vmin);
+    }
+  }
+
+  &__price {
+    font-weight: bold;
+    text-align: right;
+    width: 18%;
+  }
+
+  &--important-brown {
+    color: var(--main-brown);
+  }
+
+  a {
     display: inline-block;
     color: var(--main-color);
     text-decoration: none;

@@ -10,7 +10,7 @@
 
 <body <?php body_class(); ?>>
   <div class="loading-page">
-    <img src="<?php echo get_theme_file_uri('/img/loading-page.png') ?>" alt="">
+    <img loading="lazy" src="<?php echo get_theme_file_uri('/img/loading-page.png') ?>" alt="">
   </div>
 
   <div class="header-menu-mob mob-nav-anim">
@@ -21,7 +21,7 @@
             class="wrap-btn-mob__span wrap-btn-mob__span--sec mob-nav-anim"></span>
         </div>
       </div>
-      <a href="<?php echo site_url('/') ?>" class="wrap-btn-mob-btn__logo"><img
+      <a href="<?php echo site_url('/') ?>" class="wrap-btn-mob-btn__logo"><img loading="lazy"
           src="<?php echo get_theme_file_uri('/img/skora-odnowa-sigil-logo-tablica.png') ?>" alt="" />
       </a>
       <button class="btn-visit">
@@ -36,7 +36,7 @@
           </li>
           <li class="menu-primary__elem-prime">
             <a class="menu-primary__show-offer">Oferta
-              <img class="mob-nav-offer-anim"
+              <img loading="lazy" class="mob-nav-offer-anim"
                 src="<?php echo get_theme_file_uri('/img/skoraodnowa_arrow_next-nav.png') ?>" alt="" />
             </a>
             <ul class=" menu-primary__menu-sec mob-nav-offer-anim">
@@ -85,14 +85,15 @@
           </li>
         </ul>
         <div class="social-button">
-          <a href="" class="social-button__icon social-button__icon--fb mob-nav-anim"><img
+          <a href="" class="social-button__icon social-button__icon--fb mob-nav-anim"><img loading="lazy"
               src="<?php echo get_theme_file_uri('/img/facebook.png') ?>" alt="Facebook Skóra odnowa Gdynia" /></a>
-          <a href="" class="social-button__icon social-button__icon--insta mob-nav-anim"><img
+          <a href="" class="social-button__icon social-button__icon--insta mob-nav-anim"><img loading="lazy"
               src="<?php echo get_theme_file_uri('/img/instagram.png') ?>" alt="Instagram Skóra odnowa Gdynia" /></a>
           <a href="tel:+48733294468" class="social-button__icon social-button__icon--phone mob-nav-anim"><img
-              src=" <?php echo get_theme_file_uri('/img/phone.png') ?>" alt="Numer telefonu Skóra odnowa Gdynia" /></a>
+              loading="lazy" src=" <?php echo get_theme_file_uri('/img/phone.png') ?>"
+              alt="Numer telefonu Skóra odnowa Gdynia" /></a>
           <a href="mailto: skoraodnowagdynia@gmail.com"
-            class="social-button__icon social-button__icon--email mob-nav-anim"><img
+            class="social-button__icon social-button__icon--email mob-nav-anim"><img loading="lazy"
               src=" <?php echo get_theme_file_uri('/img/email.png') ?>" alt="Email Skóra odnowa Gdynia" /></a>
         </div>
       </nav>
@@ -157,8 +158,8 @@
             </li>
           </div>
           <div class="menu-deskt-logo">
-            <a href="/"><img src="<?php echo get_theme_file_uri('/img/skora-odnowa-sigil-logo-tablica.png') ?>"
-                alt="" />
+            <a href="/"><img loading="lazy"
+                src="<?php echo get_theme_file_uri('/img/skora-odnowa-sigil-logo-tablica.png') ?>" alt="" />
             </a>
           </div>
           <div class="menu-primary-deskt__wrap menu-primary__wrap--right">
@@ -169,9 +170,9 @@
               <a href="<?php echo site_url('/umow-wizyte-stacjonarna') ?>">Umów wizytę stacjonarną</a>
             </button>
             <div class="social-button">
-              <a href="" class="social-button__icon social-button__icon--fb"><img
+              <a href="" class="social-button__icon social-button__icon--fb"><img loading="lazy"
                   src="<?php echo get_theme_file_uri('/img/facebook.png') ?>" alt="Facebook Skóra odnowa Gdynia" /></a>
-              <a href="" class="social-button__icon social-button__icon--insta"><img
+              <a href="" class="social-button__icon social-button__icon--insta"><img loading="lazy"
                   src="<?php echo get_theme_file_uri('/img/instagram.png') ?>"
                   alt="Instagram Skóra Odnowa Gdynia" /></a>
             </div>
@@ -190,7 +191,7 @@
 
   <script>
   const hamMenu = document.querySelector(
-    ".wrap-btn-mob__nav-btn.wrap-btn-mob__nav-btn-wrap-span"
+    ".wrap-btn-mob__nav-btn.wrap-btn-mob__nav-btn--wrap-span"
   );
   const mobNavAnim = document.querySelectorAll(".mob-nav-anim");
   const mobNavOfferAnim = document.querySelectorAll(".mob-nav-offer-anim");

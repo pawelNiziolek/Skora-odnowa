@@ -242,7 +242,7 @@
     margin: 0;
     padding: 0;
 
-    & a {
+    a {
       display: inline-block;
       font-size: var(--nav-elem-font-size);
       letter-spacing: var(--btn-lett-space);
@@ -303,7 +303,7 @@
     transform: translateX(0);
   }
 
-  & img {
+  img {
     border-radius: 50%;
     transition: 0.25s;
 

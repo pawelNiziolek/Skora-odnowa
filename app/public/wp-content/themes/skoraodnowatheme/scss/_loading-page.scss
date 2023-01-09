@@ -23,7 +23,7 @@
   z-index: 999;
   transition: 0s;
 
-  & img {
+  img {
     transform: translateY(0);
     width: clamp(200px, 50vmin, 40vw);
     animation: hideLPimg .5s ease-out;

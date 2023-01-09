@@ -1,0 +1,222 @@
+// .wrap-home .header-menu-deskt {
+//   background-color: transparent;
+// }
+
+.wrap-home {
+  width: auto;
+  max-width: 100%;
+
+  .video-prime {
+    padding: 0;
+
+    &__movie {
+      overflow: hidden;
+      width: 100vw;
+      height: auto;
+      max-width: 100%;
+    }
+  }
+
+
+  .blog-carousel {
+    position: relative;
+    height: 100%;
+    margin: 50px 0;
+    padding: 0 5vw;
+    overflow: hidden;
+  }
+
+  .swiper {
+    width: 100%;
+    height: 100%;
+    margin: 40px 0;
+    overflow: visible !important;
+
+    &-slide {
+      text-align: center;
+      background: var(--main-green);
+      /* border: 1px solid var(--main-color); */
+      /* Center slide text vertically */
+      display: -webkit-box;
+      display: -ms-flexbox;
+      display: -webkit-flex;
+      display: flex;
+      -webkit-box-pack: center;
+      -ms-flex-pack: center;
+      -webkit-justify-content: center;
+      justify-content: center;
+      -webkit-box-align: center;
+      -ms-flex-align: center;
+      -webkit-align-items: center;
+      align-items: center;
+
+      & a {
+        display: block;
+        width: 100%;
+        height: 110vw;
+        text-decoration: none;
+        color: var(--main-color);
+        box-shadow: -4px 4px 0 0 var(--shadow-color);
+        transition: .4s;
+
+        @include mq(s) {
+          height: 63vw;
+        }
+
+        @include mq(md) {
+          height: 58vw;
+        }
+
+        @include mq(lg) {
+          height: 42vw;
+        }
+
+        @include mq(xxl) {
+          height: 600px;
+        }
+
+
+        &:hover {
+          box-shadow: 0 0 0 0 var(--shadow-color);
+
+          & .p-more {
+            letter-spacing: 1px;
+          }
+        }
+      }
+    }
+  }
+
+  .slide-img {
+    overflow: hidden;
+    display: block;
+    width: 100%;
+    height: 75vw;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    transition: .3s;
+
+    @include mq(s) {
+      height: 44vw;
+    }
+
+    @include mq(md) {
+      height: 42vw;
+    }
+
+    @include mq(lg) {
+      height: 30vw;
+    }
+
+    @include mq(xxl) {
+      height: 450px;
+    }
+
+    &.kons-kos {
+      background-image: url("/wp-content/themes/skoraodnowatheme/img/slider-hp/konsultacja.jpg");
+    }
+
+    &.spec-ter {
+      background-image: url('/wp-content/themes/skoraodnowatheme/img/slider-hp/terapie-tradziku.jpg');
+    }
+
+    &.ocz-wod {
+      background-image: url('/wp-content/themes/skoraodnowatheme/img/slider-hp/wodorowe-oczyszczanie.jpg');
+    }
+
+    &.mik-skin {
+      background-image: url('/wp-content/themes/skoraodnowatheme/img/slider-hp/skinpen.jpg');
+    }
+
+    &.mez-igl {
+      background-image: url('/wp-content/themes/skoraodnowatheme/img/slider-hp/mezoterapia.jpg');
+    }
+
+    &.mez-oko {
+      background-image: url('/wp-content/themes/skoraodnowatheme/img/slider-hp/mezoterapia.jpg');
+    }
+
+    &.sty-tka {
+      background-image: url('/wp-content/themes/skoraodnowatheme/img/slider-hp/stymulatory.jpg');
+    }
+
+    &.ind-ter {
+      background-image: url('/wp-content/themes/skoraodnowatheme/img/slider-hp/indywidualne-terapie-zabiegowe.jpg');
+    }
+
+    &.pee-med {
+      background-image: url('/wp-content/themes/skoraodnowatheme/img/slider-hp/zabiegi-oczyszczajace.jpg');
+    }
+  }
+
+  .slide-text {
+    position: relative;
+    z-index: 2;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    height: 35vw;
+    padding: 20px 12px;
+    font-family: 'como', sans-serif;
+    text-align: left;
+
+    @include mq(s) {
+      height: 19vw;
+    }
+
+    @include mq(md) {
+      height: 17vw;
+      padding: 25px;
+    }
+
+    @include mq(lg) {
+      height: 12vw;
+    }
+
+    @include mq(xxl) {
+      height: 150px;
+    }
+
+    .slide-title {
+      font-size: 17px;
+
+      @include mq(md) {
+        font-size: 18px;
+      }
+
+      @include mq(lg) {
+        font-size: 17px;
+      }
+
+      @include mq(xl) {
+        font-size: 20px;
+      }
+
+      @include mq(xxl) {
+        font-size: 24px;
+      }
+    }
+
+    .p-more {
+      display: inline-block;
+      width: 100%;
+      padding: 20px 10px 10px;
+      font-size: 14px;
+      text-align: right;
+      transition: .3s;
+
+      @include mq(md) {
+        font-size: 13px;
+      }
+
+      @include mq(xl) {
+        font-size: 14px;
+      }
+
+      @include mq(xxl) {
+        font-size: 16px;
+      }
+    }
+  }
+}

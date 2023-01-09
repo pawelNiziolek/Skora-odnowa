@@ -13,19 +13,19 @@
     <div class="wrap-contact">
       <section class="wrap-footer__section footer-contact">
         <h2 class="wrap-footer__footer-info-contact h2-title">Kontakt</h2>
-        <p class="wrap-footer__footer-info-contact__details p-normal"><img class="wrap-footer__contact-icon"
-            src=" <?php echo get_theme_file_uri('/img/phone.png') ?>" alt="Numer telefonu Skóra odnowa Gdynia" /> <a
-            href="tel:+48733294468">733 294 468</a>
+        <p class="wrap-footer__footer-info-contact__details p-normal"><img loading="lazy"
+            class="wrap-footer__contact-icon" src=" <?php echo get_theme_file_uri('/img/phone.png') ?>"
+            alt="Numer telefonu Skóra odnowa Gdynia" /> <a href="tel:+48733294468">733 294 468</a>
         </p>
-        <p class="wrap-footer__footer-info-contact__details p-normal"><img class="wrap-footer__contact-icon"
-            src=" <?php echo get_theme_file_uri('/img/email.png') ?>" alt="Email Skóra odnowa Gdynia" /> <a
-            href="mailto: skoraodnowagdynia@gmail.com">
+        <p class="wrap-footer__footer-info-contact__details p-normal"><img loading="lazy"
+            class="wrap-footer__contact-icon" src=" <?php echo get_theme_file_uri('/img/email.png') ?>"
+            alt="Email Skóra odnowa Gdynia" /> <a href="mailto: skoraodnowagdynia@gmail.com">
             skoraodnowagdynia@gmail.com</a>
         </p>
         <div class="wrap-footer__social-button">
-          <a href="" class="wrap-footer__social-button-icon wrap-footer__social-button-icon--fb"><img
+          <a href="" class="wrap-footer__social-button-icon wrap-footer__social-button-icon--fb"><img loading="lazy"
               src="<?php echo get_theme_file_uri('/img/facebook.png') ?>" alt="Facebook Skóra odnowa Gdynia" /></a>
-          <a href="" class="wrap-footer__social-button-icon wrap-footer__social-button-icon--insta"><img
+          <a href="" class="wrap-footer__social-button-icon wrap-footer__social-button-icon--insta"><img loading="lazy"
               src="<?php echo get_theme_file_uri('/img/instagram.png') ?>" alt="Instagram Skóra odnowa Gdynia" /></a>
         </div>
       </section>

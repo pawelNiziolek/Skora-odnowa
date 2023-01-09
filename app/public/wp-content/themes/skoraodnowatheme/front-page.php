@@ -12,7 +12,7 @@
     </video>
     <!-- <picture>
       <source srcset="<?php echo get_theme_file_uri('/img/foto-agata/home-baner.jpg') ?>" media="(min-width: 1024px)" />
-      <img src="<?php echo get_theme_file_uri('/img/foto-agata/home-baner-mob.jpg') ?>"
+      <img loading="lazy"  src="<?php echo get_theme_file_uri('/img/foto-agata/home-baner-mob.jpg') ?>"
         alt="Skóra Odnowa Gabinet kosmetologii holistycznej baner główny" />
     </picture> -->
   </section>
@@ -157,6 +157,11 @@ document.addEventListener("DOMContentLoaded", function(event) {
 });
 </script>
 
+<!-- <script>
+const observer = new IntersectionObserver(entries => {
+  console.log(entries)
+})
+</script> -->
 
 <?php
 
