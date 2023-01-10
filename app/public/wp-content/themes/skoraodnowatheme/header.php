@@ -153,7 +153,7 @@
             <li class="menu-primary-deskt__elem-prime <?php if (is_page('cennik')) echo 'elem-active' ?>">
               <a href="<?php echo site_url('/cennik') ?>">Cennik</a>
             </li>
-            <li class="menu-primary-deskt__elem-prime <?php if (is_page('blog')) echo 'elem-active' ?>">
+            <li class="menu-primary-deskt__elem-prime <?php if (is_post_type_archive('blog')) echo 'elem-active' ?>">
               <a href="<?php echo site_url('/blog') ?>">Blog</a>
             </li>
           </div>

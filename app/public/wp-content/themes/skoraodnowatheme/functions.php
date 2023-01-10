@@ -3,14 +3,14 @@
 function skora_odnowa()
 {
   // wp_enqueue_script('skoraodnowa_slider_home_js', get_theme_file_uri('/scripts/slider-blog.js'), array('jquery'), '1.0', true);
-  // wp_enqueue_style('skoraodnowa_main_styles', get_theme_file_uri('/styles/css-full.css'));
-  wp_enqueue_style('skoraodnowa_main_styles', get_theme_file_uri('/styles/main.css'));
-  wp_enqueue_style('skoraodnowa_nav_styles', get_theme_file_uri('/styles/header.css'));
-  wp_enqueue_style('skoraodnowa_footer_styles', get_theme_file_uri('/styles/footer.css'));
-  wp_enqueue_style('skoraodnowa_home_styles', get_theme_file_uri('/styles/home.css'));
-  wp_enqueue_style('skoraodnowa_price-list_styles', get_theme_file_uri('/styles/price-list.css'));
-  wp_enqueue_style('skoraodnowa_blog-list_styles', get_theme_file_uri('/styles/blog-list.css'));
-  wp_enqueue_style('skoraodnowa_post_styles', get_theme_file_uri('/styles/post.css'));
+  wp_enqueue_style('skoraodnowa_main_styles', get_theme_file_uri('/styles/css-full.css'));
+  // wp_enqueue_style('skoraodnowa_main_styles', get_theme_file_uri('/styles/main.css'));
+  // wp_enqueue_style('skoraodnowa_nav_styles', get_theme_file_uri('/styles/header.css'));
+  // wp_enqueue_style('skoraodnowa_footer_styles', get_theme_file_uri('/styles/footer.css'));
+  // wp_enqueue_style('skoraodnowa_home_styles', get_theme_file_uri('/styles/home.css'));
+  // wp_enqueue_style('skoraodnowa_price-list_styles', get_theme_file_uri('/styles/price-list.css'));
+  // wp_enqueue_style('skoraodnowa_blog-list_styles', get_theme_file_uri('/styles/blog-list.css'));
+  // wp_enqueue_style('skoraodnowa_post_styles', get_theme_file_uri('/styles/post.css'));
 }
 
 // wp_enqueue_script( $handle, $src, $deps, $ver, $in_footer );

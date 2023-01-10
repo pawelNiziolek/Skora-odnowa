@@ -23,6 +23,10 @@
   }
 }
 
+.wrap-single-post {
+  overflow: hidden;
+}
+
 .post-header {
   position: relative;
 
@@ -99,24 +103,24 @@
   padding: 0 var(--padding-section) 20px var(--padding-section);
 
   &__text {
-    margin: 40px 5px 0;
+    margin: 40px 5px;
     padding: 5px 15px;
     background-color: var(--main-green);
     box-shadow: -5px 5px 0 0 var(--shadow-color);
     animation: img-slip 1.4s ease;
 
     @include mq(s) {
-      margin: 10px 5px 0;
+      margin: 10px 5px;
       padding: 15px 25px;
     }
 
     @include mq(md) {
-      margin: 40px 5px 0;
+      margin: 40px 5px;
       padding: 30px 35px;
     }
 
     @include mq(lg) {
-      margin: 40px 5px 0;
+      margin: 40px 5px;
       padding: 40px 55px;
     }
 

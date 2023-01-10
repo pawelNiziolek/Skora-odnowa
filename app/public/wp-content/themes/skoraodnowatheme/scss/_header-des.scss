@@ -1,11 +1,19 @@
 .header-menu-deskt {
+  display: none;
+  z-index: 99;
+
+  @include mq(lg) {
+    display: block;
+  }
+
   position: fixed;
   top: 0;
   left: 0;
   right: 0;
   padding: 0 10px;
   background-color: rgba(255, 255, 255, .3);
-  transition: background-color .3s, box-shadow .3s;
+  transition: background-color .3s,
+  box-shadow .3s;
 
   &:hover {
     background-color: var(--main-green);
@@ -45,7 +53,6 @@
       color: var(--main-color);
       font-weight: 700;
       text-transform: uppercase;
-      display: inline-block;
       line-height: 1.2;
       text-decoration: none;
       transition: .3s;
@@ -69,8 +76,16 @@
       transition: 0.3s;
     }
 
+    &:not(.menu-deskt-logo)>a:hover::after {
+      width: 100%;
+    }
+
     &.elem-active>a {
       color: var(--shadow-color);
+
+      &::after {
+        width: 100%;
+      }
     }
 
     &--show-offer:hover .menu-primary-deskt__menu-sec {

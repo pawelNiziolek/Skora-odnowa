@@ -111,14 +111,11 @@
   min-width: 100px;
   margin: 5px 0;
   color: #fff;
+  font-size: 12px;
 }
 
 .p-normal__copy-reg a {
   color: #fff;
-}
-
-.p-normal__copy-reg {
-  font-size: 12px;
 }
 
 .p-normal__copy-reg--rights {
