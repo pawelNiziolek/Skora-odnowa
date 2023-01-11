@@ -1,4 +1,4 @@
-<footer class="wrap-footer">
+<footer class="wrap-footer" id="contact">
   <div class="wrap-footer__wrap-section">
     <section class="wrap-footer__section footer-visit">
       <article class="footer-adress">

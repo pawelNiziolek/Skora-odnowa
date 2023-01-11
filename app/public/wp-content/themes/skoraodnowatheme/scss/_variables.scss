@@ -54,3 +54,9 @@ $breakpoints: (
   align-items: center;
   justify-content: space-around;
 }
+
+@mixin img-text-shadow {
+  box-shadow: -5px 5px 0 0 var(--shadow-color);
+  transform: translateX(0);
+  animation: img-slip 1.4s ease;
+}

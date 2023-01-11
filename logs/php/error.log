@@ -164,3 +164,5 @@ Stack trace:
 [05-Jan-2023 09:33:19 UTC] Cron reschedule event error for hook: wp_privacy_delete_old_export_files, Error code: could_not_set, Error message: The cron event list could not be saved., Data: {"schedule":"hourly","args":[],"interval":3600}
 [09-Jan-2023 16:14:40 UTC] PHP Parse error:  Unclosed '{' on line 4 in C:\Users\pawel\Local Sites\Skora-odnowa\app\public\wp-content\themes\skoraodnowatheme\functions.php on line 36
 [09-Jan-2023 16:14:41 UTC] PHP Parse error:  Unclosed '{' on line 4 in C:\Users\pawel\Local Sites\Skora-odnowa\app\public\wp-content\themes\skoraodnowatheme\functions.php on line 36
+[11-Jan-2023 17:41:29 UTC] Cron reschedule event error for hook: wp_privacy_delete_old_export_files, Error code: could_not_set, Error message: The cron event list could not be saved., Data: {"schedule":"hourly","args":[],"interval":3600}
+[11-Jan-2023 18:31:53 UTC] PHP Warning:  Attempt to read property "title" on null in C:\Users\pawel\Local Sites\Skora-odnowa\app\public\wp-includes\class-wp-customize-widgets.php on line 900

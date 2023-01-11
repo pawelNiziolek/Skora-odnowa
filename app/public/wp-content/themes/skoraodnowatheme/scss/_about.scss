@@ -1,0 +1,46 @@
+.about-me {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+
+  &__text {
+    margin: 40px 5px;
+    padding: 5px 15px;
+    background-color: var(--main-green);
+    @include img-text-shadow;
+
+    @include mq(s) {
+      margin: 10px 5px;
+      padding: 15px 25px;
+    }
+
+    @include mq(md) {
+      margin: 40px 5px;
+      padding: 30px 35px;
+    }
+
+    @include mq(lg) {
+      margin: 40px 5px;
+      padding: 40px 55px;
+    }
+
+    @include mq(hd) {
+      padding: 60px 85px;
+    }
+
+    & p {
+      font-size: calc(var(--main-font-size) + 1vmin);
+      font-weight: 400;
+      letter-spacing: var(--normal-lett-space);
+      line-height: 1.25;
+      margin: 3vmin 0;
+      padding: 1vmin 0;
+      display: inline-block;
+
+      @include mq(md) {
+        margin: 1vmin 0;
+        padding: 0.5vmin;
+      }
+    }
+  }
+}

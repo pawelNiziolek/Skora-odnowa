@@ -81,7 +81,7 @@
             <a href="<?php echo site_url('/blog') ?>"> Blog</a>
           </li>
           <li class="menu-primary__elem-prime">
-            <a href="<?php echo site_url('/kontakt') ?>"> Kontakt</a>
+            <a href="#contact"> Kontakt</a>
           </li>
         </ul>
         <div class="social-button">
@@ -153,7 +153,7 @@
             <li class="menu-primary-deskt__elem-prime <?php if (is_page('cennik')) echo 'elem-active' ?>">
               <a href="<?php echo site_url('/cennik') ?>">Cennik</a>
             </li>
-            <li class="menu-primary-deskt__elem-prime <?php if (is_post_type_archive('blog')) echo 'elem-active' ?>">
+            <li class="menu-primary-deskt__elem-prime <?php if (is_page('blog')) echo 'elem-active' ?>">
               <a href="<?php echo site_url('/blog') ?>">Blog</a>
             </li>
           </div>
@@ -163,8 +163,8 @@
             </a>
           </div>
           <div class="menu-primary-deskt__wrap menu-primary__wrap--right">
-            <li class="menu-primary-deskt__elem-prime <?php if (is_page('kontakt')) echo 'elem-active' ?>">
-              <a href="<?php echo site_url('/kontakt') ?>"> Kontakt</a>
+            <li class="menu-primary-deskt__elem-prime">
+              <a href="#contact"> Kontakt</a>
             </li>
             <button class="btn-visit">
               <a href="<?php echo site_url('/umow-wizyte-stacjonarna') ?>">Umów wizytę stacjonarną</a>

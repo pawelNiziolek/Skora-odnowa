@@ -1,0 +1,50 @@
+@keyframes hideLPimg {
+  0% {
+    opacity: 0;
+    transform: translateY(10vh);
+  }
+
+  30% {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+@keyframes hiddenMenuLoad {
+  0% {
+    opacity: 0;
+  }
+
+  59.99% {
+    opacity: 0;
+  }
+
+  60% {
+    opacity: 1;
+  }
+}
+
+@keyframes title-slip {
+  0% {
+    opacity: 0;
+    top: -40vmax;
+  }
+
+  60% {
+    opacity: 0;
+    top: -40vmax;
+  }
+}
+
+@keyframes img-slip {
+  0% {
+    opacity: 0;
+    transform: translateX(50%);
+    box-shadow: -5vmax 5vmax 0 0 var(--shadow-color);
+  }
+
+  40% {
+    opacity: 0;
+    box-shadow: -5vmax 5vmax 0 0 var(--shadow-color);
+  }
+}

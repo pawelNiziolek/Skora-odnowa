@@ -18,6 +18,10 @@
 
   .h2-title {
     margin: 3vmin 0 1vmin;
+
+    @include mq(hd) {
+      margin: 42px 0 14px;
+    }
   }
 }
 
@@ -106,6 +110,10 @@
 
   @include mq(xl) {
     margin: 3vmin 0;
+  }
+
+  @include mq(hd) {
+    margin: 42px 0;
   }
 }
 
