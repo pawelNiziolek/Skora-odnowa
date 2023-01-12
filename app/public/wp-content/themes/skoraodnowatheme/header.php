@@ -49,10 +49,10 @@
                 </a>
               </li>
               <li class="menu-primary__elem-sec">
-                <a href=""> Specjalistyczne terapie skór trądzikowych </a>
+                <a href="<?php echo site_url('oferta/terapie-skor-tradzikowych') ?>">Terapie skór trądzikowych </a>
               </li>
               <li class="menu-primary__elem-sec">
-                <a href=""> Oczyszczanie wodorowe </a>
+                <a href="<?php echo site_url('oferta/oczyszczanie-wodorowe') ?>"> Oczyszczanie wodorowe </a>
               </li>
               <li class="menu-primary__elem-sec">
                 <a href=""> Mikronakłuwanie SkinPen® </a>
@@ -122,13 +122,13 @@
                   </a>
                 </li>
                 <li
-                  class="menu-primary-deskt__elem-sec <?php if (is_page('oferta/specjalistyczne-terapie-skor-tradzikowych')) echo 'elem-active' ?>">
-                  <a href="<?php echo site_url('oferta/specjalistyczne-terapie-skor-tradzikowych') ?>"> Specjalistyczne
-                    terapie skór trądzikowych
+                  class="menu-primary-deskt__elem-sec <?php if (is_page('oferta/terapie-skor-tradzikowych')) echo 'elem-active' ?>">
+                  <a href="<?php echo site_url('oferta/terapie-skor-tradzikowych') ?>">Terapie skór trądzikowych
                   </a>
                 </li>
-                <li class="menu-primary-deskt__elem-sec">
-                  <a href=""> Oczyszczanie wodorowe </a>
+                <li
+                  class="menu-primary-deskt__elem-sec <?php if (is_page('oferta/oczyszczanie-wodorowe')) echo 'elem-active' ?>">
+                  <a href="<?php echo site_url('oferta/oczyszczanie-wodorowe') ?>"> Oczyszczanie wodorowe </a>
                 </li>
                 <li class="menu-primary-deskt__elem-sec">
                   <a href=""> Mikronakłuwanie SkinPen® </a>

@@ -24,6 +24,14 @@
   }
 }
 
+.h3-title {
+  font-size: calc(var(--main-font-size) + 1vmin);
+  font-weight: 400;
+  letter-spacing: var(--normal-lett-space);
+  font-weight: bold;
+  margin: 4vmin 0 20px;
+}
+
 .p-normal {
   font-size: calc(var(--main-font-size) + 1vmin);
   font-weight: 400;

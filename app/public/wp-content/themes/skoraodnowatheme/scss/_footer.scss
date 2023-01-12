@@ -17,7 +17,11 @@
   }
 
   .h2-title {
-    margin: 3vmin 0 1vmin;
+    margin: 6vmin 0 1vmin;
+
+    @include mq(mdl) {
+      margin: 3vmin 0 1vmin;
+    }
 
     @include mq(hd) {
       margin: 42px 0 14px;
